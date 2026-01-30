@@ -1,0 +1,505 @@
+[
+  {
+    "_id": "bbb000000000000000000001",
+    "name": "sites.read",
+    "display_name": "View Sites",
+    "description": "View hospital sites",
+    "resource": "sites",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000002",
+    "name": "sites.create",
+    "display_name": "Create Sites",
+    "description": "Create new hospital sites",
+    "resource": "sites",
+    "action": "create",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000003",
+    "name": "sites.update",
+    "display_name": "Update Sites",
+    "description": "Update hospital site information",
+    "resource": "sites",
+    "action": "update",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000004",
+    "name": "sites.delete",
+    "display_name": "Delete Sites",
+    "description": "Delete hospital sites",
+    "resource": "sites",
+    "action": "delete",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000005",
+    "name": "services.read",
+    "display_name": "View Services",
+    "description": "View medical services",
+    "resource": "services",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000006",
+    "name": "services.create",
+    "display_name": "Create Services",
+    "description": "Create new medical services",
+    "resource": "services",
+    "action": "create",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000007",
+    "name": "services.update",
+    "display_name": "Update Services",
+    "description": "Update medical service information",
+    "resource": "services",
+    "action": "update",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000008",
+    "name": "services.delete",
+    "display_name": "Delete Services",
+    "description": "Delete medical services",
+    "resource": "services",
+    "action": "delete",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000009",
+    "name": "doctors.read",
+    "display_name": "View Doctors",
+    "description": "View doctor profiles",
+    "resource": "doctors",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000010",
+    "name": "doctors.create",
+    "display_name": "Create Doctors",
+    "description": "Create new doctor profiles",
+    "resource": "doctors",
+    "action": "create",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000011",
+    "name": "doctors.update",
+    "display_name": "Update Doctors",
+    "description": "Update doctor profile information",
+    "resource": "doctors",
+    "action": "update",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000012",
+    "name": "doctors.delete",
+    "display_name": "Delete Doctors",
+    "description": "Delete doctor profiles",
+    "resource": "doctors",
+    "action": "delete",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000013",
+    "name": "events.read",
+    "display_name": "View Events",
+    "description": "View events and agenda",
+    "resource": "events",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000014",
+    "name": "events.create",
+    "display_name": "Create Events",
+    "description": "Create new events",
+    "resource": "events",
+    "action": "create",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000015",
+    "name": "events.update",
+    "display_name": "Update Events",
+    "description": "Update event information",
+    "resource": "events",
+    "action": "update",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000016",
+    "name": "events.delete",
+    "display_name": "Delete Events",
+    "description": "Delete events",
+    "resource": "events",
+    "action": "delete",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000017",
+    "name": "newborns.read",
+    "display_name": "View Newborns",
+    "description": "View newborn gallery",
+    "resource": "newborns",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000018",
+    "name": "newborns.create",
+    "display_name": "Create Newborns",
+    "description": "Add newborn entries",
+    "resource": "newborns",
+    "action": "create",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000019",
+    "name": "newborns.update",
+    "display_name": "Update Newborns",
+    "description": "Update newborn entries",
+    "resource": "newborns",
+    "action": "update",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000020",
+    "name": "newborns.delete",
+    "display_name": "Delete Newborns",
+    "description": "Delete newborn entries",
+    "resource": "newborns",
+    "action": "delete",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000021",
+    "name": "jobs.read",
+    "display_name": "View Jobs",
+    "description": "View job postings",
+    "resource": "jobs",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000022",
+    "name": "jobs.create",
+    "display_name": "Create Jobs",
+    "description": "Create new job postings",
+    "resource": "jobs",
+    "action": "create",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000023",
+    "name": "jobs.update",
+    "display_name": "Update Jobs",
+    "description": "Update job posting information",
+    "resource": "jobs",
+    "action": "update",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000024",
+    "name": "jobs.delete",
+    "display_name": "Delete Jobs",
+    "description": "Delete job postings",
+    "resource": "jobs",
+    "action": "delete",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000025",
+    "name": "patient_info.read",
+    "display_name": "View Patient Info",
+    "description": "View patient information pages",
+    "resource": "patient_info",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000026",
+    "name": "patient_info.create",
+    "display_name": "Create Patient Info",
+    "description": "Create patient information pages",
+    "resource": "patient_info",
+    "action": "create",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000027",
+    "name": "patient_info.update",
+    "display_name": "Update Patient Info",
+    "description": "Update patient information pages",
+    "resource": "patient_info",
+    "action": "update",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000028",
+    "name": "patient_info.delete",
+    "display_name": "Delete Patient Info",
+    "description": "Delete patient information pages",
+    "resource": "patient_info",
+    "action": "delete",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000029",
+    "name": "users.read",
+    "display_name": "View Users",
+    "description": "View user accounts",
+    "resource": "users",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000030",
+    "name": "users.create",
+    "display_name": "Create Users",
+    "description": "Create new user accounts",
+    "resource": "users",
+    "action": "create",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000031",
+    "name": "users.update",
+    "display_name": "Update Users",
+    "description": "Update user accounts",
+    "resource": "users",
+    "action": "update",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000032",
+    "name": "users.delete",
+    "display_name": "Delete Users",
+    "description": "Delete user accounts",
+    "resource": "users",
+    "action": "delete",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000033",
+    "name": "roles.read",
+    "display_name": "View Roles",
+    "description": "View roles and permissions",
+    "resource": "roles",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000034",
+    "name": "roles.manage",
+    "display_name": "Manage Roles",
+    "description": "Create, update, delete roles and assign permissions",
+    "resource": "roles",
+    "action": "manage",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000035",
+    "name": "contacts.read",
+    "display_name": "View Contacts",
+    "description": "View service contacts",
+    "resource": "contacts",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000036",
+    "name": "contacts.manage",
+    "display_name": "Manage Contacts",
+    "description": "Create, update, delete service contacts",
+    "resource": "contacts",
+    "action": "manage",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000037",
+    "name": "links.manage",
+    "display_name": "Manage Links",
+    "description": "Create, update, delete service links",
+    "resource": "links",
+    "action": "manage",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000038",
+    "name": "brochures.manage",
+    "display_name": "Manage Brochures",
+    "description": "Create, update, delete service brochures",
+    "resource": "brochures",
+    "action": "manage",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000039",
+    "name": "dashboard.read",
+    "display_name": "View Dashboard",
+    "description": "Access admin dashboard and analytics",
+    "resource": "dashboard",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000040",
+    "name": "emergency_hotlines.read",
+    "display_name": {
+      "fr": "Voir les lignes d'urgence",
+      "en": "View emergency hotlines",
+      "de": "Notfall-Hotlines anzeigen",
+      "it": "Visualizzare le hotline di emergenza"
+    },
+    "description": {
+      "fr": "Consulter la liste des lignes d'urgence",
+      "en": "View all emergency hotlines",
+      "de": "Alle Notfall-Hotlines anzeigen",
+      "it": "Visualizzare tutte le hotline di emergenza"
+    },
+    "resource": "emergency_hotlines",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000041",
+    "name": "emergency_hotlines.create",
+    "display_name": {
+      "fr": "Créer une ligne d'urgence",
+      "en": "Create emergency hotline",
+      "de": "Notfall-Hotline erstellen",
+      "it": "Creare una hotline di emergenza"
+    },
+    "description": {
+      "fr": "Créer de nouvelles lignes d'urgence",
+      "en": "Create new emergency hotlines",
+      "de": "Neue Notfall-Hotlines erstellen",
+      "it": "Creare nuove hotline di emergenza"
+    },
+    "resource": "emergency_hotlines",
+    "action": "create",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000042",
+    "name": "emergency_hotlines.update",
+    "display_name": {
+      "fr": "Modifier une ligne d'urgence",
+      "en": "Update emergency hotline",
+      "de": "Notfall-Hotline aktualisieren",
+      "it": "Aggiornare una hotline di emergenza"
+    },
+    "description": {
+      "fr": "Modifier les lignes d'urgence existantes",
+      "en": "Update existing emergency hotlines",
+      "de": "Bestehende Notfall-Hotlines aktualisieren",
+      "it": "Aggiornare le hotline di emergenza esistenti"
+    },
+    "resource": "emergency_hotlines",
+    "action": "update",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000043",
+    "name": "emergency_hotlines.delete",
+    "display_name": {
+      "fr": "Supprimer une ligne d'urgence",
+      "en": "Delete emergency hotline",
+      "de": "Notfall-Hotline löschen",
+      "it": "Eliminare una hotline di emergenza"
+    },
+    "description": {
+      "fr": "Supprimer les lignes d'urgence",
+      "en": "Delete emergency hotlines",
+      "de": "Notfall-Hotlines löschen",
+      "it": "Eliminare le hotline di emergenza"
+    },
+    "resource": "emergency_hotlines",
+    "action": "delete",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000044",
+    "name": "appointments.read",
+    "display_name": {
+      "fr": "Voir les rendez-vous",
+      "en": "View appointments",
+      "de": "Termine anzeigen",
+      "it": "Visualizzare gli appuntamenti"
+    },
+    "description": {
+      "fr": "Consulter la liste des types de rendez-vous",
+      "en": "View all appointment types",
+      "de": "Alle Termintypen anzeigen",
+      "it": "Visualizzare tutti i tipi di appuntamento"
+    },
+    "resource": "appointments",
+    "action": "read",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000045",
+    "name": "appointments.create",
+    "display_name": {
+      "fr": "Créer un rendez-vous",
+      "en": "Create appointment",
+      "de": "Termin erstellen",
+      "it": "Creare un appuntamento"
+    },
+    "description": {
+      "fr": "Créer de nouveaux types de rendez-vous",
+      "en": "Create new appointment types",
+      "de": "Neue Termintypen erstellen",
+      "it": "Creare nuovi tipi di appuntamento"
+    },
+    "resource": "appointments",
+    "action": "create",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000046",
+    "name": "appointments.update",
+    "display_name": {
+      "fr": "Modifier un rendez-vous",
+      "en": "Update appointment",
+      "de": "Termin aktualisieren",
+      "it": "Aggiornare un appuntamento"
+    },
+    "description": {
+      "fr": "Modifier les types de rendez-vous existants",
+      "en": "Update existing appointment types",
+      "de": "Bestehende Termintypen aktualisieren",
+      "it": "Aggiornare i tipi di appuntamento esistenti"
+    },
+    "resource": "appointments",
+    "action": "update",
+    "is_active": true
+  },
+  {
+    "_id": "bbb000000000000000000047",
+    "name": "appointments.delete",
+    "display_name": {
+      "fr": "Supprimer un rendez-vous",
+      "en": "Delete appointment",
+      "de": "Termin löschen",
+      "it": "Eliminare un appuntamento"
+    },
+    "description": {
+      "fr": "Supprimer les types de rendez-vous",
+      "en": "Delete appointment types",
+      "de": "Termintypen löschen",
+      "it": "Eliminare i tipi di appuntamento"
+    },
+    "resource": "appointments",
+    "action": "delete",
+    "is_active": true
+  }
+]

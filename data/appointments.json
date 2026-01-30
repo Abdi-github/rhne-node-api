@@ -1,0 +1,203 @@
+[
+  {
+    "_id": "fff000000000000000000001",
+    "title": {
+      "fr": "Urgences Adulte",
+      "en": "Adult Emergencies",
+      "de": "Erwachsenen-Notfall",
+      "it": "Emergenze Adulti"
+    },
+    "slug": "urgences-adulte",
+    "appointment_type": "adult",
+    "description": {
+      "fr": "Consultation d'urgence pour les patients adultes de 16 ans et plus. Ce service est destiné aux situations médicales urgentes ne mettant pas la vie en danger.",
+      "en": "Emergency consultation for adult patients aged 16 and over. This service is intended for urgent medical situations that are not life-threatening.",
+      "de": "Notfallkonsultation für erwachsene Patienten ab 16 Jahren. Dieser Service ist für dringende medizinische Situationen bestimmt, die nicht lebensbedrohlich sind.",
+      "it": "Consultazione d'emergenza per pazienti adulti dai 16 anni in su. Questo servizio è destinato a situazioni mediche urgenti non mortali."
+    },
+    "age_restriction": {
+      "fr": "Dès 16 ans",
+      "en": "From 16 years old",
+      "de": "Ab 16 Jahren",
+      "it": "Dai 16 anni"
+    },
+    "schedule": {
+      "fr": "Du lundi au vendredi, de 9h à 17h30",
+      "en": "Monday to Friday, 9am to 5:30pm",
+      "de": "Montag bis Freitag, 9 bis 17:30 Uhr",
+      "it": "Dal lunedì al venerdì, dalle 9:00 alle 17:30"
+    },
+    "locations": {
+      "fr": "Hôpital Pourtalès, Neuchâtel",
+      "en": "Pourtalès Hospital, Neuchâtel",
+      "de": "Spital Pourtalès, Neuenburg",
+      "it": "Ospedale Pourtalès, Neuchâtel"
+    },
+    "booking_url": "https://reservation.polypointservices.ch/rhne-urgences-adultes",
+    "info_text": {
+      "fr": "Pour annuler ou modifier votre rendez-vous, appelez le +41 32 713 30 00.",
+      "en": "To cancel or modify your appointment, call +41 32 713 30 00.",
+      "de": "Um Ihren Termin zu stornieren oder zu ändern, rufen Sie +41 32 713 30 00 an.",
+      "it": "Per annullare o modificare il vostro appuntamento, chiamate il +41 32 713 30 00."
+    },
+    "conditions": [
+      {
+        "fr": "Entorse, foulure, douleur articulaire aiguë",
+        "en": "Sprain, strain, acute joint pain",
+        "de": "Verstauchung, Zerrung, akute Gelenkschmerzen",
+        "it": "Distorsione, strappo, dolore articolare acuto"
+      },
+      {
+        "fr": "Plaie nécessitant des points de suture",
+        "en": "Wound requiring stitches",
+        "de": "Wunde, die genäht werden muss",
+        "it": "Ferita che richiede punti di sutura"
+      },
+      {
+        "fr": "Infection urinaire, otite, angine",
+        "en": "Urinary infection, ear infection, sore throat",
+        "de": "Harnwegsinfektion, Ohrenentzündung, Halsentzündung",
+        "it": "Infezione urinaria, otite, angina"
+      },
+      {
+        "fr": "Douleur abdominale, dorsale aiguë",
+        "en": "Abdominal pain, acute back pain",
+        "de": "Bauchschmerzen, akute Rückenschmerzen",
+        "it": "Dolore addominale, dorsale acuto"
+      },
+      {
+        "fr": "Fièvre persistante sans amélioration",
+        "en": "Persistent fever without improvement",
+        "de": "Anhaltendes Fieber ohne Besserung",
+        "it": "Febbre persistente senza miglioramento"
+      },
+      {
+        "fr": "Réaction allergique modérée",
+        "en": "Moderate allergic reaction",
+        "de": "Moderate allergische Reaktion",
+        "it": "Reazione allergica moderata"
+      }
+    ],
+    "phone_number": "+41 32 713 30 00",
+    "display_order": 1,
+    "is_active": true
+  },
+  {
+    "_id": "fff000000000000000000002",
+    "title": {
+      "fr": "Urgences Enfant et Adolescent",
+      "en": "Child and Adolescent Emergencies",
+      "de": "Kinder- und Jugendnotfall",
+      "it": "Emergenze Bambini e Adolescenti"
+    },
+    "slug": "urgences-enfant-et-adolescent",
+    "appointment_type": "child",
+    "description": {
+      "fr": "Consultation d'urgence pédiatrique pour les enfants et adolescents de moins de 16 ans. Disponible 7 jours sur 7 en journée.",
+      "en": "Pediatric emergency consultation for children and adolescents under 16 years old. Available 7 days a week during daytime.",
+      "de": "Pädiatrische Notfallkonsultation für Kinder und Jugendliche unter 16 Jahren. 7 Tage die Woche tagsüber verfügbar.",
+      "it": "Consultazione d'emergenza pediatrica per bambini e adolescenti sotto i 16 anni. Disponibile 7 giorni su 7 durante il giorno."
+    },
+    "age_restriction": {
+      "fr": "Moins de 16 ans",
+      "en": "Under 16 years old",
+      "de": "Unter 16 Jahren",
+      "it": "Sotto i 16 anni"
+    },
+    "schedule": {
+      "fr": "7 jours sur 7, en journée",
+      "en": "7 days a week, daytime",
+      "de": "7 Tage die Woche, tagsüber",
+      "it": "7 giorni su 7, di giorno"
+    },
+    "locations": {
+      "fr": "Hôpital Pourtalès (Neuchâtel) et La Chaux-de-Fonds",
+      "en": "Pourtalès Hospital (Neuchâtel) and La Chaux-de-Fonds",
+      "de": "Spital Pourtalès (Neuenburg) und La Chaux-de-Fonds",
+      "it": "Ospedale Pourtalès (Neuchâtel) e La Chaux-de-Fonds"
+    },
+    "booking_url": "https://reservation.polypointservices.ch/rhne-urgences-pediatriques",
+    "info_text": {
+      "fr": "Pour annuler ou modifier votre rendez-vous, appelez le +41 32 713 30 00.",
+      "en": "To cancel or modify your appointment, call +41 32 713 30 00.",
+      "de": "Um Ihren Termin zu stornieren oder zu ändern, rufen Sie +41 32 713 30 00 an.",
+      "it": "Per annullare o modificare il vostro appuntamento, chiamate il +41 32 713 30 00."
+    },
+    "conditions": [
+      {
+        "fr": "Fièvre chez le nourrisson ou l'enfant",
+        "en": "Fever in infant or child",
+        "de": "Fieber bei Säuglingen oder Kindern",
+        "it": "Febbre nel neonato o nel bambino"
+      },
+      {
+        "fr": "Vomissements, diarrhée, déshydratation",
+        "en": "Vomiting, diarrhea, dehydration",
+        "de": "Erbrechen, Durchfall, Dehydratation",
+        "it": "Vomito, diarrea, disidratazione"
+      },
+      {
+        "fr": "Chute, traumatisme, suspicion de fracture",
+        "en": "Fall, trauma, suspected fracture",
+        "de": "Sturz, Trauma, Verdacht auf Fraktur",
+        "it": "Caduta, trauma, sospetta frattura"
+      },
+      {
+        "fr": "Difficultés respiratoires (asthme, bronchiolite)",
+        "en": "Breathing difficulties (asthma, bronchiolitis)",
+        "de": "Atembeschwerden (Asthma, Bronchiolitis)",
+        "it": "Difficoltà respiratorie (asma, bronchiolite)"
+      },
+      {
+        "fr": "Éruption cutanée, réaction allergique",
+        "en": "Skin rash, allergic reaction",
+        "de": "Hautausschlag, allergische Reaktion",
+        "it": "Eruzione cutanea, reazione allergica"
+      }
+    ],
+    "phone_number": "+41 32 713 30 00",
+    "display_order": 2,
+    "is_active": true
+  },
+  {
+    "_id": "fff000000000000000000003",
+    "title": {
+      "fr": "Médecin Traitant",
+      "en": "Family Doctor",
+      "de": "Hausarzt",
+      "it": "Medico Curante"
+    },
+    "slug": "medecin-traitant",
+    "appointment_type": "doctor",
+    "description": {
+      "fr": "Vous n'avez pas de médecin traitant ? Le RHNe propose des consultations de médecine générale. Vous pouvez également consulter la plateforme cantonale pour trouver un médecin.",
+      "en": "Don't have a family doctor? RHNe offers general medicine consultations. You can also consult the cantonal platform to find a doctor.",
+      "de": "Sie haben keinen Hausarzt? Das RHNe bietet allgemeinmedizinische Sprechstunden an. Sie können auch die kantonale Plattform nutzen, um einen Arzt zu finden.",
+      "it": "Non avete un medico curante? Il RHNe offre consultazioni di medicina generale. Potete anche consultare la piattaforma cantonale per trovare un medico."
+    },
+    "age_restriction": null,
+    "schedule": {
+      "fr": "Sur rendez-vous",
+      "en": "By appointment",
+      "de": "Nach Vereinbarung",
+      "it": "Su appuntamento"
+    },
+    "locations": {
+      "fr": "Consultations RHNe et plateforme cantonale",
+      "en": "RHNe consultations and cantonal platform",
+      "de": "RHNe-Sprechstunden und kantonale Plattform",
+      "it": "Consultazioni RHNe e piattaforma cantonale"
+    },
+    "booking_url": "",
+    "info_text": {
+      "fr": "Contactez-nous au +41 32 713 30 00 pour prendre rendez-vous ou utilisez la plateforme cantonale medecinneuchatel.ch.",
+      "en": "Contact us at +41 32 713 30 00 to make an appointment or use the cantonal platform medecinneuchatel.ch.",
+      "de": "Kontaktieren Sie uns unter +41 32 713 30 00 für einen Termin oder nutzen Sie die kantonale Plattform medecinneuchatel.ch.",
+      "it": "Contattateci al +41 32 713 30 00 per prendere un appuntamento o utilizzate la piattaforma cantonale medecinneuchatel.ch."
+    },
+    "conditions": [],
+    "phone_number": "+41 32 713 30 00",
+    "display_order": 3,
+    "is_active": true
+  }
+]

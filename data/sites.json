@@ -1,0 +1,177 @@
+[
+  {
+    "_id": "69a9f40f98fad1fec753a011",
+    "name": "Pourtalès",
+    "slug": "pourtales",
+    "type": {
+      "fr": "Soins aigus",
+      "en": "Acute care",
+      "de": "Akutversorgung",
+      "it": "Cura acuta"
+    },
+    "address": "Maladière 45",
+    "city": "Neuchâtel",
+    "postal_code": "2000",
+    "phone": "+41 32 713 30 00",
+    "maps_url": "https://www.rhne.ch/acces",
+    "image_url": "https://www.rhne.ch/image/layout_set_logo?img_id=250633&t=1772511942297",
+    "description": {
+      "fr": "Le site de Pourtalès, à Neuchâtel, est l’un des deux centres de soins aigus du RHNe.\n       Situé à l’est de la ville, dans le quartier de la Maladière, il propose une très large palette de prestations ambulatoires et stationnaires, des urgences 24h/24 ainsi qu’un départ SMUR (Service mobile urgences réanimation).    Le site dispose d’une unité de soins intensifs et d’une unité cérébrovasculaire certifiée, d’un centre spécialisé dans la prise en charge de l’obésité et d'un centre mère-enfant (maternité et pédiatrie).",
+      "en": "The Pourtalès site, in Neuchâtel, is one of the RHNe’s two acute care centers. \nLocated to the east of the city, in the Maladière district, it offers a very wide range of ambulatory and inpatient services, 24-hour emergencies as well as an SMUR departure (mobile emergency resuscitation service). The site has an intensive care unit and a certified cerebrovascular unit, a center specializing in the management of obesity and a mother-child center (maternity and pediatrics).",
+      "de": "Der Standort Pourtalès in Neuchâtel ist eines der beiden Akutversorgungszentren der RHNe. \nÖstlich der Stadt, im Stadtteil Maladière gelegen, bietet es ein sehr breites Spektrum an ambulanten und stationären Diensten, 24-Stunden-Notfälle sowie einen SMUR-Abgang (mobiler Notfall-Wiederbelebungsdienst). Der Standort verfügt über eine Intensivstation und eine zertifizierte zerebrovaskuläre Abteilung, ein auf die Behandlung von Fettleibigkeit spezialisiertes Zentrum und ein Mutter-Kind-Zentrum (Mutterschaft und Pädiatrie).",
+      "it": "Il sito di Pourtalès, a Neuchâtel, è uno dei due centri di terapia intensiva della RHNe. \nSituato a est della città, nel quartiere Maladière, offre un'ampia gamma di servizi ambulatoriali e ospedalieri, emergenze 24 ore su 24 e una partenza SMUR (servizio mobile di rianimazione d'emergenza). Il sito dispone di un'unità di terapia intensiva e di un'unità cerebrovascolare certificata, un centro specializzato nella gestione dell'obesità e un centro materno-infantile (maternità e pediatria)."
+    },
+    "amenities": [],
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a012",
+    "name": "La Chaux-de-Fonds",
+    "slug": "la-chaux-de-fonds",
+    "type": {
+      "fr": "Soins aigus",
+      "en": "Acute care",
+      "de": "Akutversorgung",
+      "it": "Cura acuta"
+    },
+    "address": "Chasseral 20",
+    "city": "La Chaux-de-Fonds",
+    "postal_code": "2303",
+    "phone": "+41 32 967 21 11",
+    "maps_url": "https://www.rhne.ch/acces",
+    "image_url": "https://www.rhne.ch/image/layout_set_logo?img_id=250633&t=1772511942297",
+    "description": {
+      "fr": "Le site de La Chaux-de-Fonds est l’un des deux centres de soins aigus du RHNe.\n       Situé au nord de la Métropole horlogère, il propose une très large palette de prestations médicales et chirurgicales, ambulatoires et stationnaires, des urgences 24h/24 ainsi qu’un départ SMUR (Service mobile urgences réanimation). \n       Le site dispose d’un pôle de compétences en oncologie et en médecine nucléaire/PET-CT ainsi que d’un Centre du sein certifié.\n       Une policlinique de pédiatrie est localisée à la rue de la Serre, au centre-ville.",
+      "en": "The La Chaux-de-Fonds site is one of two RHNe acute care centers. \nLocated in the north of the watchmaking metropolis, it offers a very wide range of medical and surgical services, ambulatory and stationary, 24-hour emergencies as well as a SMUR departure (mobile emergency resuscitation service). \nThe site has a center of expertise in oncology and nuclear medicine/PET-CT as well as a certified Breast Center. \nA pediatric outpatient clinic is located on rue de la Serre, in the city center.",
+      "de": "Der Standort La Chaux-de-Fonds ist eines von zwei RHNe-Akutversorgungszentren. \nIm Norden der Uhrenmetropole gelegen, bietet es ein sehr breites Spektrum an medizinischen und chirurgischen Leistungen, ambulante und stationäre, 24-Stunden-Notfälle sowie einen SMUR-Abgang (mobiler Notfall-Wiederbelebungsdienst). \nDer Standort verfügt über ein Kompetenzzentrum für Onkologie und Nuklearmedizin/PET-CT sowie ein zertifiziertes Brustzentrum. \nEine Kinderambulanz befindet sich in der Rue de la Serre im Stadtzentrum.",
+      "it": "Il sito di La Chaux-de-Fonds è uno dei due centri di terapia intensiva RHNe. \nSituato nel nord della metropoli dell'orologeria, offre una gamma molto ampia di servizi medici e chirurgici, ambulatoriali e stazionari, emergenze 24 ore su 24 e una partenza SMUR (servizio mobile di rianimazione d'emergenza). \nIl sito dispone di un centro di competenza in oncologia e medicina nucleare/PET-CT, nonché di un centro senologico certificato. \nUn ambulatorio pediatrico si trova in rue de la Serre, nel centro della città."
+    },
+    "amenities": [],
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a013",
+    "name": "Val-de-Ruz",
+    "slug": "val-de-ruz",
+    "type": {
+      "fr": "Réadaptation",
+      "en": "Rehabilitation",
+      "de": "Rehabilitation",
+      "it": "Riabilitazione"
+    },
+    "address": "Landeyeux",
+    "city": "Fontaines",
+    "postal_code": "2046",
+    "phone": "+41 32 854 45 45",
+    "maps_url": "https://www.rhne.ch/acces",
+    "image_url": "https://www.rhne.ch/image/layout_set_logo?img_id=250633&t=1772511942297",
+    "description": {
+      "fr": "Le site du Val-de-Ruz est l’un des deux centres de réadaptation du RHNe.\n       Situé à Landeyeux, il propose des prestations dans trois filières de réadaptation spécialisée (musculo-squelettique, neurologique et médecine interne) pour les patient-e-s stationnaires et ambulatoires ainsi qu’un Centre du sport avec une salle de physiothérapie et une piscine.    L’équipe pluridisciplinaire du site est composée d’une équipe médico-soignante spécialisée, d’ergothérapeutes, de physiothérapeutes, de neuropsychologues, de logopédistes, de diététicien-ne-s et d’assistant-e-s social-e-s.",
+      "en": "The Val-de-Ruz site is one of two RHNe rehabilitation centers. \nLocated in Landeyeux, it offers services in three specialized rehabilitation sectors (musculoskeletal, neurological and internal medicine) for inpatient and outpatient patients as well as a Sports Center with a physiotherapy room and a swimming pool. The site's multidisciplinary team is made up of a specialized medical care team, occupational therapists, physiotherapists, neuropsychologists, speech therapists, dieticians and social assistants.",
+      "de": "Der Standort Val-de-Ruz ist eines von zwei RHNe-Rehabilitationszentren. \nDas in Landeyeux ansässige Unternehmen bietet Dienstleistungen in drei spezialisierten Rehabilitationsbereichen (Muskel-Skelett-, Neurologie- und Innere Medizin) für stationäre und ambulante Patienten sowie ein Sportzentrum mit einem Physiotherapieraum und einem Schwimmbad. Das multidisziplinäre Team des Standorts besteht aus einem spezialisierten medizinischen Pflegeteam, Ergotherapeuten, Physiotherapeuten, Neuropsychologen, Logopäden, Ernährungsberatern und Sozialassistenten.",
+      "it": "Il sito della Val-de-Ruz è uno dei due centri di riabilitazione RHNe. \nSituato a Landeyeux, offre servizi in tre settori riabilitativi specializzati (muscolo-scheletrico, neurologico e medicina interna) per pazienti ricoverati e ambulatoriali, nonché un centro sportivo con sala di fisioterapia e piscina. L'équipe multidisciplinare della struttura è composta da un'équipe medica specializzata, terapisti occupazionali, fisioterapisti, neuropsicologi, logopedisti, dietisti e assistenti sociali."
+    },
+    "amenities": [],
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a014",
+    "name": "Le Locle",
+    "slug": "le-locle",
+    "type": {
+      "fr": "Réadaptation",
+      "en": "Rehabilitation",
+      "de": "Rehabilitation",
+      "it": "Riabilitazione"
+    },
+    "address": "Rue Bellevue 42",
+    "city": "Le Locle",
+    "postal_code": "2400",
+    "phone": "+41 32 933 61 11",
+    "maps_url": "https://www.rhne.ch/acces",
+    "image_url": "https://www.rhne.ch/image/layout_set_logo?img_id=250633&t=1772511942297",
+    "description": {
+      "fr": "Le site du Locle est l’un des deux centres de réadaptation du RHNe.\n       Situé sur les hauts de la ville, il propose des prestations dans deux filières de réadaptation spécialisée (musculo-squelettique et gériatrique) pour les patient-e-s stationnaires et ambulatoires. \n       L’équipe pluridisciplinaire du site est composée d’une équipe médico-soignante spécialisée, d’ergothérapeutes, de physiothérapeutes, de neuropsychologues, de logopédistes, de diététicien-ne-s et d’assistant-e-s social-e-s.",
+      "en": "The Locle site is one of two RHNe rehabilitation centers. \nLocated on the heights of the city, it offers services in two specialized rehabilitation sectors (musculoskeletal and geriatric) for inpatient and ambulatory patients. \nThe site's multidisciplinary team is made up of a specialized medical care team, occupational therapists, physiotherapists, neuropsychologists, speech therapists, dieticians and social assistants.",
+      "de": "Der Standort Locle ist eines von zwei RHNe-Rehabilitationszentren. \nAuf den Höhen der Stadt gelegen, bietet es Leistungen in zwei spezialisierten Rehabilitationsbereichen (Muskel-Skelett- und Geriatrie) für stationäre und ambulante Patienten an. \nDas multidisziplinäre Team des Standorts besteht aus einem spezialisierten medizinischen Pflegeteam, Ergotherapeuten, Physiotherapeuten, Neuropsychologen, Logopäden, Ernährungsberatern und Sozialassistenten.",
+      "it": "Il sito di Locle è uno dei due centri di riabilitazione RHNe. \nSituato sulle alture della città, offre servizi in due settori riabilitativi specializzati (muscolo-scheletrico e geriatrico) per pazienti ricoverati e ambulatoriali. \nL'équipe multidisciplinare della struttura è composta da un'équipe medica specializzata, terapisti occupazionali, fisioterapisti, neuropsicologi, logopedisti, dietisti e assistenti sociali."
+    },
+    "amenities": [],
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a015",
+    "name": "Val-de-Travers",
+    "slug": "val-de-travers",
+    "type": {
+      "fr": "Policlinique",
+      "en": "Policlinic",
+      "de": "Poliklinik",
+      "it": "Policlinico"
+    },
+    "address": "Rue de l'Hôpital 4",
+    "city": "Couvet",
+    "postal_code": "2108",
+    "phone": "+41 32 864 64 64",
+    "maps_url": "https://www.rhne.ch/acces",
+    "image_url": "https://www.rhne.ch/image/layout_set_logo?img_id=250633&t=1772511942297",
+    "description": {
+      "fr": "L’ancien hôpital du Val-de-Travers, à Couvet, a été transformé en Maison de santé en 2017, avec l’ouverture d’une structure d’accueil pour personnes cérébrolésées sévères, gérée par la fondation Les Perce-Neige.\n       Le RHNe propose une policlinique pour les urgences adultes, avec présence d’un-e médecin urgentiste et départ SMUR (Service mobile urgences réanimation) 24h/24.\n       Les enfants dès 6 ans sont pris-es en charge en cas de traumatismes légers (suspicion de fractures et coupures).\n       Le RHNe propose également une large palette de prestations ambulatoires, avec des consultations en rhumatologie, orthopédie générale, néphrologie, oncologie, radiologie, physiothérapie, ergothérapie et nutrition.",
+      "en": "The former Val-de-Travers hospital, in Couvet, was transformed into a health center in 2017, with the opening of a reception structure for people with severe brain injuries, managed by the Les Perce-Neige foundation. \nThe RHNe offers an outpatient clinic for adult emergencies, with the presence of an emergency doctor and SMUR (mobile emergency resuscitation service) departure 24 hours a day. \nChildren aged 6 and over are treated in the event of minor trauma (suspected fractures and cuts). \nRHNe also offers a wide range of outpatient services, with consultations in rheumatology, general orthopedics, nephrology, oncology, radiology, physiotherapy, occupational therapy and nutrition.",
+      "de": "Das ehemalige Krankenhaus Val-de-Travers in Couvet wurde 2017 mit der Eröffnung einer von der Stiftung Les Perce-Neige verwalteten Aufnahmeeinrichtung für Menschen mit schweren Hirnverletzungen in ein Gesundheitszentrum umgewandelt. \nDas RHNe bietet eine Ambulanz für Notfälle bei Erwachsenen mit Anwesenheit eines Notarztes und SMUR (Mobiler Notfall-Wiederbelebungsdienst) rund um die Uhr. \nKinder ab 6 Jahren werden bei leichten Traumata (Verdacht auf Frakturen und Schnittwunden) behandelt. \nRHNe bietet auch eine breite Palette ambulanter Dienstleistungen an, mit Beratungen in den Bereichen Rheumatologie, allgemeine Orthopädie, Nephrologie, Onkologie, Radiologie, Physiotherapie, Ergotherapie und Ernährung.",
+      "it": "L'ex ospedale della Val-de-Travers, a Couvet, è stato trasformato in un centro sanitario nel 2017, con l'apertura di una struttura di accoglienza per persone con gravi lesioni cerebrali, gestita dalla fondazione Les Perce-Neige. \nLa RHNe offre un ambulatorio per le emergenze degli adulti, con la presenza di un medico d'urgenza e lo SMUR (servizio mobile di rianimazione d'emergenza) con partenza 24 ore su 24.\nI bambini dai 6 anni in su vengono curati in caso di traumi minori (sospette fratture e tagli). \nRHNe offre anche un'ampia gamma di servizi ambulatoriali, con consulenze di reumatologia, ortopedia generale, nefrologia, oncologia, radiologia, fisioterapia, terapia occupazionale e nutrizione."
+    },
+    "amenities": [],
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a016",
+    "name": "La Chrysalide",
+    "slug": "la-chrysalide",
+    "type": {
+      "fr": "Soins palliatifs",
+      "en": "Palliative care",
+      "de": "Palliativpflege",
+      "it": "Cure palliative"
+    },
+    "address": "rue de la Paix 99",
+    "city": "La Chaux-de-Fonds",
+    "postal_code": "2301",
+    "phone": "+41 32 912 56 76",
+    "maps_url": "https://www.rhne.ch/acces",
+    "image_url": "https://www.rhne.ch/image/layout_set_logo?img_id=250633&t=1772511942297",
+    "description": {
+      "fr": "Le service de soins palliatifs du RHNe est situé dans le bâtiment historique de La Chrysalide, à la rue de la Paix, à La Chaux-de-Fonds.\n       L’unité de douze lits accueille des personnes atteintes d'une maladie évolutive avancée limitant l'espérance de vie et nécessitant des soins palliatifs spécialisés. \n       Le service propose une unité de soins à La Chrysalide ainsi qu’une équipe mobile de gériatrie et soins palliatifs (GSPmob).\n       Les proches et les visiteur-euse-s sont les bienvenu-e-s à toute heure et chaque jour. Ils/elles peuvent, s’ils/elles le désirent, participer aux soins, prendre leurs repas et éventuellement dormir dans la chambre du/de la patient-e sur un lit d’appoint. \n       Les enfants sont également les bienvenu-e-s. Ils/elles trouveront des livres et des jeux au salon, de même qu’une télévision. \n       Les animaux de compagnie sont autorisés en visite, pour autant que leur comportement ne prétérite pas le confort, la sécurité et le bon fonctionnement du service. \n       Les membres de l’équipe interdisciplinaire sont à disposition des proches signifiant-e-s pour des entretiens, de préférence les après-midi et/ou sur rendez-vous. Des nouvelles des patient-e-s peuvent être prises par téléphone à toute heure. \n       Au sous-sol, une crypte (ou chambre mortuaire) permet aux proches de se retrouver avec la personne décédée ou de se recueillir dans un cadre serein.",
+      "en": "The RHNe palliative care service is located in the historic La Chrysalide building, on rue de la Paix, in La Chaux-de-Fonds. \nThe twelve-bed unit welcomes people with an advanced progressive illness limiting life expectancy and requiring specialized palliative care. \nThe service offers a care unit at La Chrysalide as well as a mobile geriatrics and palliative care team (GSPmob). \nRelatives and visitors are welcome at any time and every day. They can, if they wish, participate in the care, take their meals and possibly sleep in the patient's room on an extra bed. \nChildren are also welcome. They will find books and games in the living room, as well as a television. \nPets are allowed to visit, as long as their behavior does not jeopardize the comfort, safety and smooth running of the service. \nThe members of the interdisciplinary team are available to significant relatives for interviews, preferably in the afternoons and/or by appointment. Updates on patients can be received by telephone at any time. \nIn the basement, a crypt (or mortuary chamber) allows loved ones to reunite with the deceased or to meditate in a serene setting.",
+      "de": "Der RHNe-Palliativpflegedienst befindet sich im historischen La Chrysalide-Gebäude in der Rue de la Paix in La Chaux-de-Fonds. \nDie Station mit zwölf Betten empfängt Menschen mit einer fortgeschrittenen, fortschreitenden Krankheit, die ihre Lebenserwartung einschränkt und eine spezielle Palliativversorgung benötigt. \nDer Dienst bietet eine Pflegestation in La Chrysalide sowie ein mobiles Geriatrie- und Palliativpflegeteam (GSPmob). \nAngehörige und Besucher sind jederzeit und täglich willkommen. Sie können auf Wunsch an der Pflege teilnehmen, ihre Mahlzeiten einnehmen und ggf. im Patientenzimmer auf einem Zustellbett schlafen. \nAuch Kinder sind herzlich willkommen. Im Wohnzimmer finden Sie Bücher und Spiele sowie einen Fernseher. \nDer Besuch von Haustieren ist gestattet, sofern ihr Verhalten den Komfort, die Sicherheit und den reibungslosen Ablauf des Service nicht gefährdet. \nDie Mitglieder des interdisziplinären Teams stehen wichtigen Angehörigen für Interviews, vorzugsweise nachmittags und/oder nach Vereinbarung, zur Verfügung. Aktuelle Patienteninformationen können jederzeit telefonisch eingeholt werden. \nIm Keller bietet eine Krypta (oder Leichenkammer) den Angehörigen die Möglichkeit, sich mit dem Verstorbenen zu vereinen oder in ruhiger Atmosphäre zu meditieren.",
+      "it": "Il servizio di cure palliative RHNe si trova nello storico edificio La Chrysalide, in rue de la Paix, a La Chaux-de-Fonds. \nL’unità da dodici posti letto accoglie persone affette da una malattia progressiva avanzata che limita l’aspettativa di vita e richiede cure palliative specializzate. \nIl servizio offre un'unità di cura a La Chrysalide e un'équipe mobile di geriatria e cure palliative (GSPmob). \nParenti e visitatori sono i benvenuti a qualsiasi ora e tutti i giorni. Possono, se lo desiderano, partecipare alle cure, consumare i pasti ed eventualmente dormire nella stanza del paziente su un letto supplementare. \nAnche i bambini sono i benvenuti. Troveranno libri e giochi nel soggiorno, oltre a un televisore. \nÈ consentita la visita agli animali domestici purché il loro comportamento non pregiudichi il comfort, la sicurezza e il regolare svolgimento del servizio. \nI membri dell'équipe interdisciplinare sono a disposizione dei parenti significativi per colloqui, preferibilmente nel pomeriggio e/o su appuntamento. Aggiornamenti sui pazienti possono essere ricevuti telefonicamente in qualsiasi momento. \nNel seminterrato, una cripta (o camera mortuaria) consente ai propri cari di ricongiungersi con il defunto o di meditare in un ambiente sereno."
+    },
+    "amenities": [],
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a017",
+    "name": "Consultation pédiatrique des Montagnes",
+    "slug": "policlinique-pediatrie-montagnes",
+    "type": {
+      "fr": "Policlinique",
+      "en": "Policlinic",
+      "de": "Poliklinik",
+      "it": "Policlinico"
+    },
+    "address": "Serre 63",
+    "city": "La Chaux-de-Fonds",
+    "postal_code": "2300",
+    "phone": "0848 134 134",
+    "maps_url": "https://www.rhne.ch/acces",
+    "image_url": "https://www.rhne.ch/image/layout_set_logo?img_id=250633&t=1772511942297",
+    "description": {
+      "fr": "Le RHNe propose des consultations de pédiatrie générale à la rue de la Serre 63, au centre-ville de La Chaux-de-Fonds, en partenariat avec des pédiatres installé-e-s.\n       L’accueil a lieu avec ou sans rendez-vous, 7 jours sur 7.",
+      "en": "The RHNe offers general pediatric consultations at rue de la Serre 63, in downtown La Chaux-de-Fonds, in partnership with established pediatricians. \nReception takes place with or without an appointment, 7 days a week.",
+      "de": "Das RHNe bietet in Zusammenarbeit mit niedergelassenen Kinderärzten allgemeine pädiatrische Sprechstunden in der Rue de la Serre 63 im Stadtzentrum von La Chaux-de-Fonds an. \nDer Empfang findet mit oder ohne Termin an 7 Tagen in der Woche statt.",
+      "it": "La RHNe offre consulenze pediatriche generali in rue de la Serre 63, nel centro di La Chaux-de-Fonds, in collaborazione con pediatri affermati. \nIl ricevimento avviene con o senza appuntamento, 7 giorni su 7."
+    },
+    "amenities": [],
+    "is_active": true
+  }
+]

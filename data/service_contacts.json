@@ -1,0 +1,1107 @@
+[
+  {
+    "_id": "69a9f40f98fad1fec753a019",
+    "service_id": "69a9f40f98fad1fec753a018",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pediatrie@rhne.ch",
+    "phone": "+41 32 713 34 64",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a01f",
+    "service_id": "69a9f40f98fad1fec753a01e",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "anesthesiologie@rhne.ch",
+    "phone": "+41 32 967 25 25",
+    "hours": {
+      "fr": "7h30-17h15",
+      "en": "7:30 a.m.-5:15 p.m.",
+      "de": "7:30-17:15 Uhr",
+      "it": "7:30-17:15"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a027",
+    "service_id": "69a9f40f98fad1fec753a026",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "angio.prt@rhne.ch",
+    "phone": "+41 32 713 33 60",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a02a",
+    "service_id": "69a9f40f98fad1fec753a029",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "cardiologie.cdf@rhne.ch",
+    "phone": "+41 32 967 27 37",
+    "hours": {
+      "fr": "9h-11h / 14h-16h",
+      "en": "9 a.m.-11 a.m. / 2 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.00-16.00 Uhr",
+      "it": "9:00-11:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a030",
+    "service_id": "69a9f40f98fad1fec753a02f",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "cabinet-pediatrie@rhne.ch",
+    "phone": "+41 79 559 49 37",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a036",
+    "service_id": "69a9f40f98fad1fec753a035",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "obesite@rhne.ch",
+    "phone": "+41 32 713 39 59",
+    "hours": {
+      "fr": "9h-12h / 13h-16h",
+      "en": "9 a.m.-12 p.m. / 1 ​​p.m.-4 p.m.",
+      "de": "9-12 Uhr / 13-16 Uhr",
+      "it": "9:00-12:00 / 13:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a040",
+    "service_id": "69a9f40f98fad1fec753a03f",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "centredusein@rhne.ch",
+    "phone": "+41 32 967 26 26",
+    "hours": {
+      "fr": "09h-11h30 / 13h30-16h30",
+      "en": "9 a.m.-11:30 a.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "9.00-11.30 Uhr / 13.30-16.30 Uhr",
+      "it": "9:00-11:30 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a046",
+    "service_id": "69a9f40f98fad1fec753a045",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "sommeil@rhne.ch",
+    "phone": "+41 32 713 36 09",
+    "hours": {
+      "fr": "9h-11h / 14h-16h",
+      "en": "9 a.m.-11 a.m. / 2 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.00-16.00 Uhr",
+      "it": "9:00-11:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a04b",
+    "service_id": "69a9f40f98fad1fec753a04a",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "centrememoire@rhne.ch",
+    "phone": "+41 32 919 57 12",
+    "hours": {
+      "fr": "9h-11h / 14h-16",
+      "en": "9 a.m.-11 a.m. / 2 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.00-16.00 Uhr",
+      "it": "9:00-11:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a054",
+    "service_id": "69a9f40f98fad1fec753a053",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "cnmv@rhne.ch",
+    "phone": "+41 32 713 31 42",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a059",
+    "service_id": "69a9f40f98fad1fec753a058",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "rachis@rhne.ch",
+    "phone": "+41 32 713 35 04",
+    "hours": {
+      "fr": "8h30-12h / 13h30-16h30",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-16:30 Uhr",
+      "it": "8:30-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a05c",
+    "service_id": "69a9f40f98fad1fec753a05b",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "chirurgie.cdf@rhne.ch",
+    "phone": "+41 32 967 25 31",
+    "hours": {
+      "fr": "8h30-12h / 13h30-16h30",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-16:30 Uhr",
+      "it": "8:30-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a061",
+    "service_id": "69a9f40f98fad1fec753a060",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pediatrie@rhne.ch",
+    "phone": "+41 79 559 44 10",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a066",
+    "service_id": "69a9f40f98fad1fec753a065",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "thorax@rhne.ch",
+    "phone": "+41 32 713 35 33",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a06a",
+    "service_id": "69a9f40f98fad1fec753a069",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pediatrie@rhne.ch",
+    "phone": "+41 79 559 41 18",
+    "hours": {
+      "fr": "8h30-11h45 / 13h30-16h",
+      "en": "8:30 a.m.-11:45 a.m. / 1:30 p.m.-4 p.m.",
+      "de": "8:30-11:45 / 13:30-16:00 Uhr",
+      "it": "8:30-11:45 / 13:30-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a06f",
+    "service_id": "69a9f40f98fad1fec753a06e",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "Neuchâtel",
+    "email": "endocrinologie@rhne.ch",
+    "phone": "+41 32 967 22 37",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a079",
+    "service_id": "69a9f40f98fad1fec753a078",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "ortho-trauma@rhne.ch",
+    "phone": "+41 32 713 35 04",
+    "hours": {
+      "fr": "8h30-12h / 13h30-16h30",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-16:30 Uhr",
+      "it": "8:30-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a07c",
+    "service_id": "69a9f40f98fad1fec753a07b",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "epileptologie@rhne.ch",
+    "phone": "+41 32 919 57 13",
+    "hours": {
+      "fr": "9h-11h / 14h-16h",
+      "en": "9 a.m.-11 a.m. / 2 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.00-16.00 Uhr",
+      "it": "9:00-11:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a080",
+    "service_id": "69a9f40f98fad1fec753a07f",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "secretariat.ergo@rhne.ch",
+    "phone": "+41 32 713 32 36",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a081",
+    "service_id": "69a9f40f98fad1fec753a07f",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Val-de-Travers",
+    "email": null,
+    "phone": "+41 79 559 47 24",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a082",
+    "service_id": "69a9f40f98fad1fec753a07f",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Le Locle",
+    "email": "ergotherapie.loc@rhne.ch",
+    "phone": "+41 32 713 32 10",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a089",
+    "service_id": "69a9f40f98fad1fec753a088",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pediatrie@rhne.ch",
+    "phone": "+41 32 713 34 64",
+    "hours": {
+      "fr": "9h-12h / 13h30-16h30",
+      "en": "9 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "9-12 Uhr / 13:30-16:30 Uhr",
+      "it": "9:00-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a08c",
+    "service_id": "69a9f40f98fad1fec753a08b",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pediatrie@rhne.ch",
+    "phone": "+41 32 713 34 64",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a090",
+    "service_id": "69a9f40f98fad1fec753a08f",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "ortho-trauma@rhne.ch",
+    "phone": "+41 32 713 35 04",
+    "hours": {
+      "fr": "8h30-12h / 13h30-16h30",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-16:30 Uhr",
+      "it": "8:30-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a093",
+    "service_id": "69a9f40f98fad1fec753a092",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "Neuchâtel",
+    "email": "rhne-consultation.ambulatoire.geriatrie@rhne.ch",
+    "phone": "+41 79 559 58 85",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a09a",
+    "service_id": "69a9f40f98fad1fec753a099",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "uga.cdf@rhne.ch",
+    "phone": "+41 32 967 34 10",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0a0",
+    "service_id": "69a9f40f98fad1fec753a09f",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "Neuchâtel",
+    "email": "rhne-consultation.ambulatoire.geriatrie@rhne.ch",
+    "phone": "+41 79 559 58 85",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0a6",
+    "service_id": "69a9f40f98fad1fec753a0a5",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "gspmob@rhne.ch",
+    "phone": null,
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0ab",
+    "service_id": "69a9f40f98fad1fec753a0aa",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La chaux-de-Fonds",
+    "email": "poligynecocdf@rhne.ch",
+    "phone": "+41 32 967 26 31",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0b0",
+    "service_id": "69a9f40f98fad1fec753a0af",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "cabinet.brunisholz@rhne.ch",
+    "phone": "+41 32 713 36 41",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0b3",
+    "service_id": "69a9f40f98fad1fec753a0b2",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La chaux-de-Fonds",
+    "email": "poligynecocdf@rhne.ch",
+    "phone": "+41 32 967 26 31",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0b7",
+    "service_id": "69a9f40f98fad1fec753a0b6",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "ortho-trauma@rhne.ch",
+    "phone": "+41 32 713 35 04",
+    "hours": {
+      "fr": "8h30-12h / 13h30-16h30",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-16:30 Uhr",
+      "it": "8:30-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0ba",
+    "service_id": "69a9f40f98fad1fec753a0b9",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La chaux-de-Fonds",
+    "email": "secretariatoncologie.cdf@rhne.ch",
+    "phone": "+41 32 967 21 41",
+    "hours": {
+      "fr": "8h-12h / 13h-17h",
+      "en": "8 a.m.-12 p.m. / 1 ​​p.m.-5 p.m.",
+      "de": "8-12 Uhr / 13-17 Uhr",
+      "it": "8:00-12:00 / 13:00-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0be",
+    "service_id": "69a9f40f98fad1fec753a0bd",
+    "site_id": null,
+    "site_name": "La Chaux-de-Fonds",
+    "email": "gastroenterologie.cdf@rhne.ch",
+    "phone": "+41 32 967 25 74",
+    "hours": {
+      "fr": "9h-12h / 13h30-16h30",
+      "en": "9 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "9-12 Uhr / 13:30-16:30 Uhr",
+      "it": "9:00-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0c3",
+    "service_id": "69a9f40f98fad1fec753a0c2",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "hypnose@rhne.ch",
+    "phone": "+41 79 559 56 79",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0c8",
+    "service_id": "69a9f40f98fad1fec753a0c7",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "radiologie.cdf@rhne.ch",
+    "phone": "+41 32 967 24 71",
+    "hours": {
+      "fr": "7h45-18h",
+      "en": "7:45 a.m.-6 p.m.",
+      "de": "7:45-18:00 Uhr",
+      "it": "7:45-18:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0c9",
+    "service_id": "69a9f40f98fad1fec753a0c7",
+    "site_id": "69a9f40f98fad1fec753a014",
+    "site_name": "Le Locle",
+    "email": "radiologie.loc@rhne.ch",
+    "phone": "+41 32 919 55 19",
+    "hours": {
+      "fr": "8h-12h / 14h-18h",
+      "en": "8 a.m.-12 p.m. / 2 p.m.-6 p.m.",
+      "de": "8-12 Uhr / 14.00-18.00 Uhr",
+      "it": "8:00-12:00 / 14:00-18:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0ca",
+    "service_id": "69a9f40f98fad1fec753a0c7",
+    "site_id": "69a9f40f98fad1fec753a015",
+    "site_name": "Val-de-Travers",
+    "email": "radiologie.vdt@rhne.ch",
+    "phone": "+41 32 919 47 22",
+    "hours": {
+      "fr": "8h-12h / 13h-18h",
+      "en": "8 a.m.-12 p.m. / 1 ​​p.m.-6 p.m.",
+      "de": "8-12 Uhr / 13-18 Uhr",
+      "it": "8:00-12:00 / 13:00-18:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0d5",
+    "service_id": "69a9f40f98fad1fec753a0d4",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pediatrie@rhne.ch",
+    "phone": "+41 32 713 34 64",
+    "hours": {
+      "fr": "8h30 - 12h / 13h30",
+      "en": "8:30 a.m. - 12 p.m. / 1:30 p.m.",
+      "de": "8:30 - 12:00 Uhr / 13:30 Uhr",
+      "it": "8:30 - 12:00 / 13:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0d8",
+    "service_id": "69a9f40f98fad1fec753a0d7",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "infectiologie@rhne.ch",
+    "phone": "+41 32 713 35 89",
+    "hours": {
+      "fr": "8h30-11h30 / 13h30-16h",
+      "en": "8:30 a.m.-11:30 a.m. / 1:30 p.m.-4 p.m.",
+      "de": "8:30-11:30 / 13:30-16:00 Uhr",
+      "it": "8:30-11:30 / 13:30-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0e4",
+    "service_id": "69a9f40f98fad1fec753a0e3",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "physiotherapie@rhne.ch",
+    "phone": "+41 32 713 32 10",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0ed",
+    "service_id": "69a9f40f98fad1fec753a0ec",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "ultrasons.prt@rhne.ch",
+    "phone": "+41 32 713 36 55",
+    "hours": {
+      "fr": "8h30-12h / 13h30-16h",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-4 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-16:00 Uhr",
+      "it": "8:30-12:00 / 13:30-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0f0",
+    "service_id": "69a9f40f98fad1fec753a0ef",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "medecine.cdf@rhne.ch",
+    "phone": "+41 32 967 27 28",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0f9",
+    "service_id": "69a9f40f98fad1fec753a0f8",
+    "site_id": null,
+    "site_name": "Les Geneveys-sur-Coffrane",
+    "email": "cabinet.payrard@rhne.ch",
+    "phone": "+41 32 912 30 80",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0fd",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La chaux-de-Fonds",
+    "email": "medecine.nucleaire@rhne.ch",
+    "phone": "+41 32 967 24 80",
+    "hours": {
+      "fr": "7h45-17h",
+      "en": "7:45 a.m.-5 p.m.",
+      "de": "7:45-17:00 Uhr",
+      "it": "7:45-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a11a",
+    "service_id": "69a9f40f98fad1fec753a119",
+    "site_id": null,
+    "site_name": "Neuchâtel",
+    "email": "menopause.prt@rhne.ch",
+    "phone": "+41 32 713 33 07",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a122",
+    "service_id": "69a9f40f98fad1fec753a121",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "nephrologie@rhne.ch",
+    "phone": "+41 32 713 36 69",
+    "hours": {
+      "fr": "9h-11h / 14h30-16h",
+      "en": "9 a.m.-11 a.m. / 2:30 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.30-16.00 Uhr",
+      "it": "9:00-11:00 / 14:30-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a125",
+    "service_id": "69a9f40f98fad1fec753a124",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "Neuchâtel",
+    "email": "pediatrie@rhne.ch",
+    "phone": "+41 79 559 49 37",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a12a",
+    "service_id": "69a9f40f98fad1fec753a129",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "secretariat.neurologie.cdf@rhne.ch",
+    "phone": "+41 32 967 23 55",
+    "hours": {
+      "fr": "9h-11h / 14h-16h",
+      "en": "9 a.m.-11 a.m. / 2 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.00-16.00 Uhr",
+      "it": "9:00-11:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a12f",
+    "service_id": "69a9f40f98fad1fec753a12e",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "secretariat.neurologie.cdf@rhne.ch",
+    "phone": "+41 32 967 23 55",
+    "hours": {
+      "fr": "9h-11h / 14h-16h",
+      "en": "9 a.m.-11 a.m. / 2 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.00-16.00 Uhr",
+      "it": "9:00-11:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a135",
+    "service_id": "69a9f40f98fad1fec753a134",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "nutrition.cdf@rhne.ch",
+    "phone": "+41 32 967 21 11",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a136",
+    "service_id": "69a9f40f98fad1fec753a134",
+    "site_id": "69a9f40f98fad1fec753a013",
+    "site_name": "Val-de-Ruz",
+    "email": "nutrition.vdr@rhne.ch",
+    "phone": null,
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a139",
+    "service_id": "69a9f40f98fad1fec753a138",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "secretariatoncologie.cdf@rhne.ch",
+    "phone": "+41 32 967 21 41",
+    "hours": {
+      "fr": "8h-12h / 13h-17h",
+      "en": "8 a.m.-12 p.m. / 1 ​​p.m.-5 p.m.",
+      "de": "8-12 Uhr / 13-17 Uhr",
+      "it": "8:00-12:00 / 13:00-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a146",
+    "service_id": "69a9f40f98fad1fec753a145",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "orl@rhne.ch",
+    "phone": "+41 32 713 35 43",
+    "hours": {
+      "fr": "9h-12h / 14h-16h",
+      "en": "9 a.m.-12 p.m. / 2 p.m.-4 p.m.",
+      "de": "9-12 Uhr / 14:00-16:00 Uhr",
+      "it": "9:00-12:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a14f",
+    "service_id": "69a9f40f98fad1fec753a14e",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "ortho-trauma@rhne.ch",
+    "phone": "+41 32 713 35 04",
+    "hours": {
+      "fr": "8h30-12h / 13h30-16h30",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-16:30 Uhr",
+      "it": "8:30-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a153",
+    "service_id": "69a9f40f98fad1fec753a152",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pediatrie@rhne.ch",
+    "phone": "+41 32 713 34 64",
+    "hours": {
+      "fr": "8h30-12h / 13h30-17h",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-5 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-17:00 Uhr",
+      "it": "8:30-12:00 / 13:30-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a158",
+    "service_id": "69a9f40f98fad1fec753a157",
+    "site_id": "69a9f40f98fad1fec753a017",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "secretariatpediatriecdf@rhne.ch",
+    "phone": "+41 32 967 30 61",
+    "hours": {
+      "fr": "8h-12h / 14h-18h",
+      "en": "8 a.m.-12 p.m. / 2 p.m.-6 p.m.",
+      "de": "8-12 Uhr / 14.00-18.00 Uhr",
+      "it": "8:00-12:00 / 14:00-18:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a15b",
+    "service_id": "69a9f40f98fad1fec753a15a",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pediatrie@rhne.ch",
+    "phone": "+41 32 713 34 64",
+    "hours": {
+      "fr": "8h30-12h / 13h30-17h",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-5 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-17:00 Uhr",
+      "it": "8:30-12:00 / 13:30-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a162",
+    "service_id": "69a9f40f98fad1fec753a161",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "Neuchâtel",
+    "email": "physiotherapie@rhne.ch",
+    "phone": "+41 32 713 32 10",
+    "hours": {
+      "fr": "07h30",
+      "en": "07:30",
+      "de": "07:30",
+      "it": "07:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a163",
+    "service_id": "69a9f40f98fad1fec753a161",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Val-de-Travers",
+    "email": "physiotherapie@rhne.ch",
+    "phone": "+41 32 713 32 10",
+    "hours": {
+      "fr": "07h30",
+      "en": "07:30",
+      "de": "07:30",
+      "it": "07:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a164",
+    "service_id": "69a9f40f98fad1fec753a161",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Le Locle",
+    "email": "physiotherapie@rhne.ch",
+    "phone": "+41 32 713 32 10",
+    "hours": {
+      "fr": "07h30",
+      "en": "07:30",
+      "de": "07:30",
+      "it": "07:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a169",
+    "service_id": "69a9f40f98fad1fec753a168",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "centredupied@rhne.ch",
+    "phone": "+41 32 713 35 04",
+    "hours": {
+      "fr": "8h30-12h / 13h30-16h30",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-16:30 Uhr",
+      "it": "8:30-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a16e",
+    "service_id": "69a9f40f98fad1fec753a16d",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "secretariatpolicliniquegenerale.prt@rhne.ch",
+    "phone": "+41 32 713 33 50",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a171",
+    "service_id": "69a9f40f98fad1fec753a170",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pneumologie@rhne.ch",
+    "phone": "+41 32 713 36 09",
+    "hours": {
+      "fr": "9h-11h / 14h-16h",
+      "en": "9 a.m.-11 a.m. / 2 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.00-16.00 Uhr",
+      "it": "9:00-11:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a176",
+    "service_id": "69a9f40f98fad1fec753a175",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pneumologie@rhne.ch",
+    "phone": "+41 32 713 36 09",
+    "hours": {
+      "fr": "9h-11h / 14h-16h",
+      "en": "9 a.m.-11 a.m. / 2 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.00-16.00 Uhr",
+      "it": "9:00-11:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a179",
+    "service_id": "69a9f40f98fad1fec753a178",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pediatrie@rhne.ch",
+    "phone": "+41 79 559 44 11",
+    "hours": {
+      "fr": "8h30-12h / 13h30-16h30",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-16:30 Uhr",
+      "it": "8:30-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a17d",
+    "service_id": "69a9f40f98fad1fec753a17c",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "main@rhne.ch",
+    "phone": "+41 32 713 35 04",
+    "hours": {
+      "fr": "8h30-12h / 13h30-16h30",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-16:30 Uhr",
+      "it": "8:30-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a180",
+    "service_id": "69a9f40f98fad1fec753a17f",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La chaux-de-Fonds",
+    "email": "policlinique.cdf@rhne.ch",
+    "phone": "+41 32 967 25 21",
+    "hours": {
+      "fr": "8h-12h / 13h-17h",
+      "en": "8 a.m.-12 p.m. / 1 ​​p.m.-5 p.m.",
+      "de": "8-12 Uhr / 13-17 Uhr",
+      "it": "8:00-12:00 / 13:00-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a181",
+    "service_id": "69a9f40f98fad1fec753a17f",
+    "site_id": "69a9f40f98fad1fec753a015",
+    "site_name": "Val-de-travers",
+    "email": "grsp.vdt@rhne.ch",
+    "phone": "+41 32 864 64 51",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a186",
+    "service_id": "69a9f40f98fad1fec753a185",
+    "site_id": null,
+    "site_name": "La Chaux-de-Fonds",
+    "email": "chirurgie.cdf@rhne.ch",
+    "phone": "+41 32 967 25 31",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a189",
+    "service_id": "69a9f40f98fad1fec753a188",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "radio-oncologie@rhne.ch",
+    "phone": "+41 32 967 21 46",
+    "hours": {
+      "fr": "8h-12h / 13h-17h",
+      "en": "8 a.m.-12 p.m. / 1 ​​p.m.-5 p.m.",
+      "de": "8-12 Uhr / 13-17 Uhr",
+      "it": "8:00-12:00 / 13:00-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a18e",
+    "service_id": "69a9f40f98fad1fec753a18d",
+    "site_id": "69a9f40f98fad1fec753a013",
+    "site_name": "Val-de-Ruz",
+    "email": "grsp-vdr@rhne.ch",
+    "phone": "+41 32 854 45 10",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a194",
+    "service_id": "69a9f40f98fad1fec753a193",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "readaptationcardiaque@rhne.ch",
+    "phone": "+41 32 713 36 02",
+    "hours": {
+      "fr": "8h-12h / 13h-17h",
+      "en": "8 a.m.-12 p.m. / 1 ​​p.m.-5 p.m.",
+      "de": "8-12 Uhr / 13-17 Uhr",
+      "it": "8:00-12:00 / 13:00-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a198",
+    "service_id": "69a9f40f98fad1fec753a197",
+    "site_id": "69a9f40f98fad1fec753a014",
+    "site_name": "Le Locle",
+    "email": "grsp-loc@rhne.ch",
+    "phone": "+41 32 933 61 90",
+    "hours": {
+      "fr": "7h30-12h / 13h30-17h",
+      "en": "7:30 a.m.-12 p.m. / 1:30 p.m.-5 p.m.",
+      "de": "7:30-12:00 Uhr / 13:30-17:00 Uhr",
+      "it": "7:30-12:00 / 13:30-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a19c",
+    "service_id": "69a9f40f98fad1fec753a19b",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "Le Locle",
+    "email": "grsp-loc@rhne.ch",
+    "phone": "+41 32 933 61 90",
+    "hours": {
+      "fr": "7h30-12h / 13h30-17h",
+      "en": "7:30 a.m.-12 p.m. / 1:30 p.m.-5 p.m.",
+      "de": "7:30-12:00 Uhr / 13:30-17:00 Uhr",
+      "it": "7:30-12:00 / 13:30-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1a1",
+    "service_id": "69a9f40f98fad1fec753a1a0",
+    "site_id": "69a9f40f98fad1fec753a013",
+    "site_name": "Val-de-Ruz",
+    "email": "grsp-vdr@rhne.ch",
+    "phone": "+41 32 854 45 26",
+    "hours": {
+      "fr": "7h30-12h / 13h30 - 18h",
+      "en": "7:30 a.m. - 12 p.m. / 1:30 p.m. - 6 p.m.",
+      "de": "7:30 - 12:00 Uhr / 13:30 Uhr - 18:00 Uhr",
+      "it": "7:30 - 12:00 / 13:30 - 18:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1a4",
+    "service_id": "69a9f40f98fad1fec753a1a3",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "pneumologie@rhne.ch",
+    "phone": "+41 32 713 36 09",
+    "hours": {
+      "fr": "9h-11h / 14h-16h",
+      "en": "9 a.m.-11 a.m. / 2 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.00-16.00 Uhr",
+      "it": "9:00-11:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1a9",
+    "service_id": "69a9f40f98fad1fec753a1a8",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "rhumatologie@rhne.ch",
+    "phone": "+41 32 967 23 01",
+    "hours": {
+      "fr": "8h - 11h / 14h - 17h",
+      "en": "8 a.m. - 11 a.m. / 2 p.m. - 5 p.m.",
+      "de": "8.00 - 11.00 / 14.00 Uhr - 17:00 Uhr",
+      "it": "8:00 - 11:00 / 14:00 - 17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1b4",
+    "service_id": "69a9f40f98fad1fec753a1b3",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "secretariat.medecine.cdf@rhne.ch",
+    "phone": "+41 32 967 27 28",
+    "hours": {
+      "fr": "8h-12h / 13h30-16h30",
+      "en": "8 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8-12 Uhr / 13:30-16:30 Uhr",
+      "it": "8:00-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1b7",
+    "service_id": "69a9f40f98fad1fec753a1b6",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "soins-si@rhne.ch",
+    "phone": "+41 32 713 34 50",
+    "hours": {
+      "fr": "8h-12h / 13h-17h15",
+      "en": "8 a.m.-12 p.m. / 1 ​​p.m.-5:15 p.m.",
+      "de": "8-12 Uhr / 13:00-17:15 Uhr",
+      "it": "8:00-12:00 / 13:00-17:15"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1bd",
+    "service_id": "69a9f40f98fad1fec753a1bc",
+    "site_id": "69a9f40f98fad1fec753a016",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "chrysalide@rhne.ch",
+    "phone": "+41 32 912 56 76",
+    "hours": {
+      "fr": "8h-12h / 13h-17h",
+      "en": "8 a.m.-12 p.m. / 1 ​​p.m.-5 p.m.",
+      "de": "8-12 Uhr / 13-17 Uhr",
+      "it": "8:00-12:00 / 13:00-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1c3",
+    "service_id": "69a9f40f98fad1fec753a1c2",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pneumologie@rhne.ch",
+    "phone": "+41 32 713 36 09",
+    "hours": {
+      "fr": "9h-11h / 14h-16h",
+      "en": "9 a.m.-11 a.m. / 2 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.00-16.00 Uhr",
+      "it": "9:00-11:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1c7",
+    "service_id": "69a9f40f98fad1fec753a1c6",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "ortho-trauma@rhne.ch",
+    "phone": "+41 32 713 35 04",
+    "hours": {
+      "fr": "8h30-12h / 13h30-16h30",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-16:30 Uhr",
+      "it": "8:30-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1ca",
+    "service_id": "69a9f40f98fad1fec753a1c9",
+    "site_id": null,
+    "site_name": "Neuchâtel",
+    "email": "neurologie.prt@rhne.ch",
+    "phone": "+41 32 919 44 40",
+    "hours": {
+      "fr": "9h-11h / 14h-16h",
+      "en": "9 a.m.-11 a.m. / 2 p.m.-4 p.m.",
+      "de": "9.00-11.00 Uhr / 14.00-16.00 Uhr",
+      "it": "9:00-11:00 / 14:00-16:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1d1",
+    "service_id": "69a9f40f98fad1fec753a1d0",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "ufn.prt@rhne.ch",
+    "phone": "+41 32 713 36 43",
+    "hours": null
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1dd",
+    "service_id": "69a9f40f98fad1fec753a1dc",
+    "site_id": null,
+    "site_name": "La Chaux-de-Fonds",
+    "email": "centre.vasculaire@rhne.ch",
+    "phone": "+41 32 713 35 32",
+    "hours": {
+      "fr": "9h-12h / 13h30-16h30",
+      "en": "9 a.m.-12 p.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "9-12 Uhr / 13:30-16:30 Uhr",
+      "it": "9:00-12:00 / 13:30-16:30"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1e0",
+    "service_id": "69a9f40f98fad1fec753a1df",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "secretariaturgences.cdf@rhne.ch",
+    "phone": "+41 32 967 25 11",
+    "hours": {
+      "fr": "9h-12h / 13h30-17h",
+      "en": "9 a.m.-12 p.m. / 1:30 p.m.-5 p.m.",
+      "de": "9-12 Uhr / 13:30-17:00 Uhr",
+      "it": "9:00-12:00 / 13:30-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1ec",
+    "service_id": "69a9f40f98fad1fec753a1eb",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "pediatrie@rhne.ch",
+    "phone": "+41 32 713 34 64",
+    "hours": {
+      "fr": "8h30-12h / 13h30-17h",
+      "en": "8:30 a.m.-12 p.m. / 1:30 p.m.-5 p.m.",
+      "de": "8:30-12:00 Uhr / 13:30-17:00 Uhr",
+      "it": "8:30-12:00 / 13:30-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1f2",
+    "service_id": "69a9f40f98fad1fec753a1f1",
+    "site_id": "69a9f40f98fad1fec753a011",
+    "site_name": "Neuchâtel",
+    "email": "urogyneco@rhne.ch",
+    "phone": null,
+    "hours": {
+      "fr": "8h-12h / 13h-17h",
+      "en": "8 a.m.-12 p.m. / 1 ​​p.m.-5 p.m.",
+      "de": "8-12 Uhr / 13-17 Uhr",
+      "it": "8:00-12:00 / 13:00-17:00"
+    }
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1f5",
+    "service_id": "69a9f40f98fad1fec753a1f4",
+    "site_id": "69a9f40f98fad1fec753a012",
+    "site_name": "La Chaux-de-Fonds",
+    "email": "urologie@rhne.ch",
+    "phone": "+41 32 713 35 14",
+    "hours": {
+      "fr": "8h30-11h30 / 13h30-16h30",
+      "en": "8:30 a.m.-11:30 a.m. / 1:30 p.m.-4:30 p.m.",
+      "de": "8:30-11:30 Uhr / 13:30-16:30 Uhr",
+      "it": "8:30-11:30 / 13:30-16:30"
+    }
+  }
+]

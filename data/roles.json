@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "aaa000000000000000000001",
+    "name": "super_admin",
+    "display_name": {
+      "fr": "Super Administrateur",
+      "en": "Super Administrator",
+      "de": "Super Administrator",
+      "it": "Super Amministratore"
+    },
+    "description": {
+      "fr": "Accès complet à la plateforme, gère tout",
+      "en": "Full platform access, manages everything",
+      "de": "Vollständiger Plattformzugriff, verwaltet alles",
+      "it": "Accesso completo alla piattaforma, gestisce tutto"
+    },
+    "is_system": true,
+    "is_active": true
+  },
+  {
+    "_id": "aaa000000000000000000002",
+    "name": "admin",
+    "display_name": {
+      "fr": "Administrateur",
+      "en": "Administrator",
+      "de": "Administrator",
+      "it": "Amministratore"
+    },
+    "description": {
+      "fr": "Administration de la plateforme, gestion du contenu et des utilisateurs",
+      "en": "Platform administration, content and user management",
+      "de": "Plattformverwaltung, Inhalts- und Benutzerverwaltung",
+      "it": "Amministrazione della piattaforma, gestione contenuti e utenti"
+    },
+    "is_system": true,
+    "is_active": true
+  },
+  {
+    "_id": "aaa000000000000000000003",
+    "name": "content_editor",
+    "display_name": {
+      "fr": "Éditeur de contenu",
+      "en": "Content Editor",
+      "de": "Inhaltsredakteur",
+      "it": "Editore di contenuti"
+    },
+    "description": {
+      "fr": "Gère le contenu du site: services, événements, informations patients, actualités",
+      "en": "Manages site content: services, events, patient info, news",
+      "de": "Verwaltet Website-Inhalte: Dienste, Veranstaltungen, Patienteninformationen, Nachrichten",
+      "it": "Gestisce i contenuti del sito: servizi, eventi, informazioni pazienti, notizie"
+    },
+    "is_system": true,
+    "is_active": true
+  },
+  {
+    "_id": "aaa000000000000000000004",
+    "name": "hr_manager",
+    "display_name": {
+      "fr": "Responsable RH",
+      "en": "HR Manager",
+      "de": "Personalleiter",
+      "it": "Responsabile risorse umane"
+    },
+    "description": {
+      "fr": "Gère les offres d'emploi et les candidatures",
+      "en": "Manages job postings and applications",
+      "de": "Verwaltet Stellenangebote und Bewerbungen",
+      "it": "Gestisce le offerte di lavoro e le candidature"
+    },
+    "is_system": true,
+    "is_active": true
+  },
+  {
+    "_id": "aaa000000000000000000005",
+    "name": "site_manager",
+    "display_name": {
+      "fr": "Responsable de site",
+      "en": "Site Manager",
+      "de": "Standortleiter",
+      "it": "Responsabile del sito"
+    },
+    "description": {
+      "fr": "Gère les informations d'un site hospitalier spécifique",
+      "en": "Manages information for a specific hospital site",
+      "de": "Verwaltet Informationen für einen bestimmten Krankenhausstandort",
+      "it": "Gestisce le informazioni di un sito ospedaliero specifico"
+    },
+    "is_system": true,
+    "is_active": true
+  }
+]

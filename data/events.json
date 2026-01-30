@@ -1,0 +1,233 @@
+[
+  {
+    "_id": "69a9f40f98fad1fec753a1f7",
+    "title": {
+      "fr": "Cancer du côlon : la qualité de vie au cœur du parcours",
+      "en": "Colon cancer: quality of life at the heart of the journey",
+      "de": "Darmkrebs: Lebensqualität im Mittelpunkt der Reise",
+      "it": "Cancro al colon: la qualità della vita al centro del percorso"
+    },
+    "slug": "cancer-du-colon-la-qualite-de-vie-au-c-ur-du-parcours",
+    "url": "https://www.rhne.ch/agenda",
+    "date": "2026-03-05",
+    "time": {
+      "fr": "19h à 21h",
+      "en": "7 p.m. to 9 p.m.",
+      "de": "19 Uhr bis 21 Uhr",
+      "it": "19:00 alle 21:00"
+    },
+    "location": {
+      "fr": "Auditoire de Pourtalès",
+      "en": "Pourtalès audience",
+      "de": "Pourtalès-Publikum",
+      "it": "Il pubblico di Pourtalès"
+    },
+    "category": {
+      "fr": "JRHNe",
+      "en": "JRHNe",
+      "de": "JRHNe",
+      "it": "JRHNe"
+    },
+    "description": null,
+    "detail_url": "https://www.rhne.ch/rhne/jeudi-rhne",
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1f8",
+    "title": {
+      "fr": "Contraception : mieux prévenir les grossesses non désirées",
+      "en": "Contraception: better prevent unwanted pregnancies",
+      "de": "Empfängnisverhütung: Ungewollte Schwangerschaften besser verhindern",
+      "it": "Contraccezione: meglio prevenire gravidanze indesiderate"
+    },
+    "slug": "contraception-mieux-prevenir-les-grossesses-non-desirees",
+    "url": "https://www.rhne.ch/agenda",
+    "date": "2026-04-23",
+    "time": {
+      "fr": "19h à 21h",
+      "en": "7 p.m. to 9 p.m.",
+      "de": "19 Uhr bis 21 Uhr",
+      "it": "19:00 alle 21:00"
+    },
+    "location": {
+      "fr": "Auditoire de Pourtalès",
+      "en": "Pourtalès audience",
+      "de": "Pourtalès-Publikum",
+      "it": "Il pubblico di Pourtalès"
+    },
+    "category": {
+      "fr": "JRHNe",
+      "en": "JRHNe",
+      "de": "JRHNe",
+      "it": "JRHNe"
+    },
+    "description": null,
+    "detail_url": "https://www.rhne.ch/rhne/jeudi-rhne",
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1f9",
+    "title": {
+      "fr": "Alimentation en oncologie : démêler les mythes et renforcer l'essentiel",
+      "en": "Nutrition in oncology: unraveling the myths and reinforcing the essentials",
+      "de": "Ernährung in der Onkologie: Mythen aufdecken und das Wesentliche stärken",
+      "it": "Nutrizione in oncologia: svelare i miti e rafforzare gli essenziali"
+    },
+    "slug": "alimentation-en-oncologie-demeler-les-mythes-et-renforcer-l-essentiel",
+    "url": "https://www.rhne.ch/agenda",
+    "date": "2026-05-21",
+    "time": {
+      "fr": "19h à 21h",
+      "en": "7 p.m. to 9 p.m.",
+      "de": "19 Uhr bis 21 Uhr",
+      "it": "19:00 alle 21:00"
+    },
+    "location": {
+      "fr": "Auditoire de Pourtalès",
+      "en": "Pourtalès audience",
+      "de": "Pourtalès-Publikum",
+      "it": "Il pubblico di Pourtalès"
+    },
+    "category": {
+      "fr": "JRHNe",
+      "en": "JRHNe",
+      "de": "JRHNe",
+      "it": "JRHNe"
+    },
+    "description": null,
+    "detail_url": "https://www.rhne.ch/rhne/jeudi-rhne",
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1fa",
+    "title": {
+      "fr": "Addiction à l’alcool : en parler pour en sortir",
+      "en": "Alcohol addiction: talking about it to get out of it",
+      "de": "Alkoholabhängigkeit: darüber reden, um daraus herauszukommen",
+      "it": "Dipendenza da alcol: parlarne per uscirne"
+    },
+    "slug": "addiction-a-l-alcool-en-parler-pour-en-sortir",
+    "url": "https://www.rhne.ch/agenda",
+    "date": "2026-06-25",
+    "time": {
+      "fr": "19h à 21h",
+      "en": "7 p.m. to 9 p.m.",
+      "de": "19 Uhr bis 21 Uhr",
+      "it": "19:00 alle 21:00"
+    },
+    "location": {
+      "fr": "Auditoire de Pourtalès",
+      "en": "Pourtalès audience",
+      "de": "Pourtalès-Publikum",
+      "it": "Il pubblico di Pourtalès"
+    },
+    "category": {
+      "fr": "JRHNe",
+      "en": "JRHNe",
+      "de": "JRHNe",
+      "it": "JRHNe"
+    },
+    "description": null,
+    "detail_url": "https://www.rhne.ch/rhne/jeudi-rhne",
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1fb",
+    "title": {
+      "fr": "L’excès du sport chez les jeunes",
+      "en": "Excessive sport among young people",
+      "de": "Übermäßiger Sport unter Jugendlichen",
+      "it": "Sport eccessivo tra i giovani"
+    },
+    "slug": "l-exces-du-sport-chez-les-jeunes",
+    "url": "https://www.rhne.ch/agenda",
+    "date": "2026-08-27",
+    "time": {
+      "fr": "19h à 21h",
+      "en": "7 p.m. to 9 p.m.",
+      "de": "19 Uhr bis 21 Uhr",
+      "it": "19:00 alle 21:00"
+    },
+    "location": {
+      "fr": "Auditoire de Pourtalès",
+      "en": "Pourtalès audience",
+      "de": "Pourtalès-Publikum",
+      "it": "Il pubblico di Pourtalès"
+    },
+    "category": {
+      "fr": "JRHNe",
+      "en": "JRHNe",
+      "de": "JRHNe",
+      "it": "JRHNe"
+    },
+    "description": null,
+    "detail_url": "https://www.rhne.ch/rhne/jeudi-rhne",
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1fc",
+    "title": {
+      "fr": "180 ans d’anesthésie : de l’éther à l’ère numérique",
+      "en": "180 years of anesthesia: from the ether to the digital age",
+      "de": "180 Jahre Anästhesie: Vom Äther bis zum digitalen Zeitalter",
+      "it": "180 anni di anestesia: dall'etere all'era digitale"
+    },
+    "slug": "180-ans-d-anesthesie-de-l-ether-a-l-ere-numerique",
+    "url": "https://www.rhne.ch/agenda",
+    "date": "2026-09-24",
+    "time": {
+      "fr": "19h à 21h",
+      "en": "7 p.m. to 9 p.m.",
+      "de": "19 Uhr bis 21 Uhr",
+      "it": "19:00 alle 21:00"
+    },
+    "location": {
+      "fr": "Auditoire de Pourtalès",
+      "en": "Pourtalès audience",
+      "de": "Pourtalès-Publikum",
+      "it": "Il pubblico di Pourtalès"
+    },
+    "category": {
+      "fr": "JRHNe",
+      "en": "JRHNe",
+      "de": "JRHNe",
+      "it": "JRHNe"
+    },
+    "description": null,
+    "detail_url": "https://www.rhne.ch/rhne/jeudi-rhne",
+    "is_active": true
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1fd",
+    "title": {
+      "fr": "Octobre rose (avec Admed) Le cancer du sein pour les femmes jeunes",
+      "en": "Pink October (with Admed) Breast cancer for young women",
+      "de": "Pink October (mit Admed) Brustkrebs für junge Frauen",
+      "it": "Ottobre Rosa (con Admed) Il cancro al seno per le giovani donne"
+    },
+    "slug": "octobre-rose-avec-admed-le-cancer-du-sein-pour-les-femmes-jeunes",
+    "url": "https://www.rhne.ch/agenda",
+    "date": "2026-10-22",
+    "time": {
+      "fr": "19h à 21h",
+      "en": "7 p.m. to 9 p.m.",
+      "de": "19 Uhr bis 21 Uhr",
+      "it": "19:00 alle 21:00"
+    },
+    "location": {
+      "fr": "Auditoire de Pourtalès",
+      "en": "Pourtalès audience",
+      "de": "Pourtalès-Publikum",
+      "it": "Il pubblico di Pourtalès"
+    },
+    "category": {
+      "fr": "JRHNe",
+      "en": "JRHNe",
+      "de": "JRHNe",
+      "it": "JRHNe"
+    },
+    "description": null,
+    "detail_url": "https://www.rhne.ch/rhne/jeudi-rhne",
+    "is_active": true
+  }
+]

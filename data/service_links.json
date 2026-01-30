@@ -1,0 +1,1740 @@
+[
+  {
+    "_id": "69a9f40f98fad1fec753a01a",
+    "service_id": "69a9f40f98fad1fec753a018",
+    "title": {
+      "fr": "CHUV allergologie pédiatrique",
+      "en": "CHUV pediatric allergology",
+      "de": "CHUV pädiatrische Allergologie",
+      "it": "Allergologia pediatrica CHUV"
+    },
+    "url": "https://www.chuv.ch/fr/dfme/dfme-home/enfants-famille/specialites-medicales/allergologie-pediatrique"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a01b",
+    "service_id": "69a9f40f98fad1fec753a018",
+    "title": {
+      "fr": "HUG allergologie pédiatrique",
+      "en": "HUG pediatric allergology",
+      "de": "HUG Kinderallergologie",
+      "it": "HUG allergologia pediatrica"
+    },
+    "url": "https://www.hug.ch/enfants-ados/specialites-medicales-chirurgicales/allergologie-pediatrique"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a01c",
+    "service_id": "69a9f40f98fad1fec753a018",
+    "title": {
+      "fr": "Centre allergie suisse",
+      "en": "Swiss Allergy Center",
+      "de": "Schweizerisches Allergiezentrum",
+      "it": "Centro Allergie Svizzero"
+    },
+    "url": "https://www.aha.ch/centre-allergie-suisse/offres/camp-aha-pour-enfants-et-ados/camp-aha-pour-enfants"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a020",
+    "service_id": "69a9f40f98fad1fec753a01e",
+    "title": {
+      "fr": "Questionnaire anesthésie",
+      "en": "Anesthesia questionnaire",
+      "de": "Anästhesie-Fragebogen",
+      "it": "Questionario sull'anestesia"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/questionnaire-anesthesie"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a021",
+    "service_id": "69a9f40f98fad1fec753a01e",
+    "title": {
+      "fr": "Information anesthésie",
+      "en": "Anesthesia information",
+      "de": "Informationen zur Anästhesie",
+      "it": "Informazioni sull'anestesia"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/information-anesthesie"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a022",
+    "service_id": "69a9f40f98fad1fec753a01e",
+    "title": {
+      "fr": "Information anesthésie ambulatoire",
+      "en": "Ambulatory anesthesia information",
+      "de": "Informationen zur ambulanten Anästhesie",
+      "it": "Informazioni sull'anestesia ambulatoriale"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/information-anesthesie-ambulatoire"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a02b",
+    "service_id": "69a9f40f98fad1fec753a029",
+    "title": {
+      "fr": "Contrôle de l’ insuffisance cardiaque",
+      "en": "Control of heart failure",
+      "de": "Kontrolle der Herzinsuffizienz",
+      "it": "Controllo dell'insufficienza cardiaca"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/insuffisancecardique_rhne"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a02c",
+    "service_id": "69a9f40f98fad1fec753a029",
+    "title": {
+      "fr": "Société Suisse de cardiologie",
+      "en": "Swiss Society of Cardiology",
+      "de": "Schweizerische Gesellschaft für Kardiologie",
+      "it": "Società Svizzera di Cardiologia"
+    },
+    "url": "https://fr.swisscardio.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a02d",
+    "service_id": "69a9f40f98fad1fec753a029",
+    "title": {
+      "fr": "Groupe d'entraide cardiopathies",
+      "en": "Heart disease support group",
+      "de": "Selbsthilfegruppe für Herzerkrankungen",
+      "it": "Gruppo di sostegno per le malattie cardiache"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Herzerkrankungen~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a031",
+    "service_id": "69a9f40f98fad1fec753a02f",
+    "title": {
+      "fr": "Chuv - Cardiologie pédiatrique",
+      "en": "Chuv - Pediatric cardiology",
+      "de": "Chuv - Kinderkardiologie",
+      "it": "Chuv - Cardiologia pediatrica"
+    },
+    "url": "https://www.chuv.ch/fr/dfme/dfme-home/enfants-famille/specialites-medicales/cardiologie-pediatrique"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a032",
+    "service_id": "69a9f40f98fad1fec753a02f",
+    "title": {
+      "fr": "Hug - Cardiologie pédiatrique",
+      "en": "Hug - Pediatric Cardiology",
+      "de": "Hug - Kinderkardiologie",
+      "it": "Abbraccio - Cardiologia Pediatrica"
+    },
+    "url": "https://www.hug.ch/enfants-ados/specialites-medicales-chirurgicales/cardiologie-pediatrique"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a033",
+    "service_id": "69a9f40f98fad1fec753a02f",
+    "title": {
+      "fr": "Association coeur-battant",
+      "en": "Beating Heart Association",
+      "de": "Verein schlagendes Herz",
+      "it": "Associazione Cuore Battente"
+    },
+    "url": "https://coeur-battant.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a037",
+    "service_id": "69a9f40f98fad1fec753a035",
+    "title": {
+      "fr": "Conférence sur l'obésité du 4 mars 2022",
+      "en": "Conference on obesity on March 4, 2022",
+      "de": "Konferenz zum Thema Adipositas am 4. März 2022",
+      "it": "Conferenza sull'obesità del 4 marzo 2022"
+    },
+    "url": "https://www.youtube.com/watch?v=B_9tElVsU7M"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a038",
+    "service_id": "69a9f40f98fad1fec753a035",
+    "title": {
+      "fr": "Le samedi 4 mars est la Journée mondiale de l'obésité",
+      "en": "Saturday March 4 is World Obesity Day",
+      "de": "Am Samstag, den 4. März, ist Welt-Adipositas-Tag",
+      "it": "Sabato 4 marzo è la Giornata mondiale dell’obesità"
+    },
+    "url": "https://www.youtube.com/watch?v=3sx6sN4XN1k"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a039",
+    "service_id": "69a9f40f98fad1fec753a035",
+    "title": {
+      "fr": "Opérer sans être invasif",
+      "en": "Operate without being invasive",
+      "de": "Operieren Sie, ohne invasiv zu sein",
+      "it": "Operare senza essere invasivo"
+    },
+    "url": "https://www.arcinfo.ch/neuchatel-canton/operer-sans-etre-invasif-893979"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a03a",
+    "service_id": "69a9f40f98fad1fec753a035",
+    "title": {
+      "fr": "Swiss Society for the Study of Morbid Obesity and Metabolic Disorders",
+      "en": "Swiss Society for the Study of Morbid Obesity and Metabolic Disorders",
+      "de": "Schweizerische Gesellschaft zur Erforschung krankhafter Fettleibigkeit und Stoffwechselstörungen",
+      "it": "Società svizzera per lo studio dell'obesità patologica e dei disturbi metabolici"
+    },
+    "url": "https://smob.ch/fr/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a041",
+    "service_id": "69a9f40f98fad1fec753a03f",
+    "title": {
+      "fr": "Organigramme de l'équipe du centre du sein",
+      "en": "Organizational chart of the breast center team",
+      "de": "Organigramm des Brustzentrumsteams",
+      "it": "Organigramma del team del centro senologico"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/equipe_pluridisciplinaire"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a042",
+    "service_id": "69a9f40f98fad1fec753a03f",
+    "title": {
+      "fr": "Groupe d'entraide cancer du sein",
+      "en": "Breast cancer support group",
+      "de": "Selbsthilfegruppe für Brustkrebs",
+      "it": "Gruppo di sostegno per il cancro al seno"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Brustkrebs~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a047",
+    "service_id": "69a9f40f98fad1fec753a045",
+    "title": {
+      "fr": "Société suisse de médecine du sommeil, de recherche sur le sommeil et de chronobiologie",
+      "en": "Swiss Society for Sleep Medicine, Sleep Research and Chronobiology",
+      "de": "Schweizerische Gesellschaft für Schlafmedizin, Schlafforschung und Chronobiologie",
+      "it": "Società svizzera per la medicina del sonno, la ricerca sul sonno e la cronobiologia"
+    },
+    "url": "https://swiss-sleep.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a048",
+    "service_id": "69a9f40f98fad1fec753a045",
+    "title": {
+      "fr": "Groupe d'entraide apnées du sommeil",
+      "en": "Sleep apnea support group",
+      "de": "Selbsthilfegruppe für Schlafapnoe",
+      "it": "Gruppo di sostegno per l'apnea notturna"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Schlafapnoe~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a04c",
+    "service_id": "69a9f40f98fad1fec753a04a",
+    "title": {
+      "fr": "Quand la mémoire ne revient pas",
+      "en": "When memory doesn't come back",
+      "de": "Wenn die Erinnerung nicht zurückkommt",
+      "it": "Quando la memoria non ritorna"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/30463/quand-la-memoire-ne-revient-pas"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a04d",
+    "service_id": "69a9f40f98fad1fec753a04a",
+    "title": {
+      "fr": "Accompagner les patients atteints de neurodégénérescence",
+      "en": "Supporting patients with neurodegeneration",
+      "de": "Unterstützung von Patienten mit Neurodegeneration",
+      "it": "Supportare i pazienti con neurodegenerazione"
+    },
+    "url": "https://www.arcinfo.ch/neuchatel-canton/accompagner-les-patients-atteints-de-neurodegenerescence-1234384"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a04e",
+    "service_id": "69a9f40f98fad1fec753a04a",
+    "title": {
+      "fr": "CareMens",
+      "en": "CareMens",
+      "de": "CareMens",
+      "it": "CuraMens"
+    },
+    "url": "https://www.caremens.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a04f",
+    "service_id": "69a9f40f98fad1fec753a04a",
+    "title": {
+      "fr": "AROSS",
+      "en": "AROSS",
+      "de": "AROSS",
+      "it": "AROSS"
+    },
+    "url": "https://www.aross.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a050",
+    "service_id": "69a9f40f98fad1fec753a04a",
+    "title": {
+      "fr": "Swiss memory clinics",
+      "en": "Swiss memory clinics",
+      "de": "Schweizer Gedächtniskliniken",
+      "it": "Cliniche svizzere della memoria"
+    },
+    "url": "https://www.swissmemoryclinics.ch/https://www.swissmemoryclinics.ch"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a051",
+    "service_id": "69a9f40f98fad1fec753a04a",
+    "title": {
+      "fr": "Groupe d'entraide Alzheimer",
+      "en": "Alzheimer support group",
+      "de": "Alzheimer-Selbsthilfegruppe",
+      "it": "Gruppo di sostegno per l'Alzheimer"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Alzheimer~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a055",
+    "service_id": "69a9f40f98fad1fec753a053",
+    "title": {
+      "fr": "Police",
+      "en": "Police",
+      "de": "Polizei",
+      "it": "Polizia Stradale"
+    },
+    "url": "https://www.ne.ch/autorites/DESC/PONE/victimes/Pages/accueil.aspx"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a056",
+    "service_id": "69a9f40f98fad1fec753a053",
+    "title": {
+      "fr": "Centre d’urgences psychiatriques (CUP)",
+      "en": "Psychiatric emergency center (CUP)",
+      "de": "Psychiatrisches Notfallzentrum (CUP)",
+      "it": "Centro di emergenza psichiatrica (CUP)"
+    },
+    "url": "https://www.cnp.ch/urgences-psychiatriques/#:~:text=Le%20CNP%20offre%20des%20centres%20d'urgences%20psychiatriques%20(CUP)"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a057",
+    "service_id": "69a9f40f98fad1fec753a053",
+    "title": {
+      "fr": "Service d’aide aux victimes",
+      "en": "Victim support service",
+      "de": "Opferhilfedienst",
+      "it": "Servizio di sostegno alle vittime"
+    },
+    "url": "http://www.savi-ne.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a062",
+    "service_id": "69a9f40f98fad1fec753a060",
+    "title": {
+      "fr": "Hug - Chirurgie-pédiatrique",
+      "en": "Hug - Pediatric-surgery",
+      "de": "Hug - Kinderchirurgie",
+      "it": "Abbraccio - Chirurgia pediatrica"
+    },
+    "url": "https://www.hug.ch/enfants-ados/chirurgie-pediatrique"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a06b",
+    "service_id": "69a9f40f98fad1fec753a069",
+    "title": {
+      "fr": "Contrôle de l’ insuffisance cardiaque",
+      "en": "Control of heart failure",
+      "de": "Kontrolle der Herzinsuffizienz",
+      "it": "Controllo dell'insufficienza cardiaca"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/insuffisancecardique_rhne"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a06c",
+    "service_id": "69a9f40f98fad1fec753a069",
+    "title": {
+      "fr": "Société Suisse de cardiologie",
+      "en": "Swiss Society of Cardiology",
+      "de": "Schweizerische Gesellschaft für Kardiologie",
+      "it": "Società Svizzera di Cardiologia"
+    },
+    "url": "https://fr.swisscardio.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a070",
+    "service_id": "69a9f40f98fad1fec753a06e",
+    "title": {
+      "fr": "Vivre sans thyroïde (2023)",
+      "en": "Living without a thyroid (2023)",
+      "de": "Leben ohne Schilddrüse (2023)",
+      "it": "Vivere senza tiroide (2023)"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/30746/vivre-sans-thyroide"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a071",
+    "service_id": "69a9f40f98fad1fec753a06e",
+    "title": {
+      "fr": "Vivre sans thyroïde (2022)",
+      "en": "Living without a thyroid (2022)",
+      "de": "Leben ohne Schilddrüse (2022)",
+      "it": "Vivere senza tiroide (2022)"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/28603/vivre-sans-thyroide"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a072",
+    "service_id": "69a9f40f98fad1fec753a06e",
+    "title": {
+      "fr": "La thyroïde : la petite glande rarement contente",
+      "en": "The thyroid: the little gland that is rarely happy",
+      "de": "Die Schilddrüse: die kleine Drüse, die selten glücklich ist",
+      "it": "La tiroide: la piccola ghiandola che raramente è felice"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/390/la-thyroide-la-petite-glande-rarement-contente"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a073",
+    "service_id": "69a9f40f98fad1fec753a06e",
+    "title": {
+      "fr": "Sucre et grossesse",
+      "en": "Sugar and pregnancy",
+      "de": "Zucker und Schwangerschaft",
+      "it": "Zucchero e gravidanza"
+    },
+    "url": "https://www.rts.ch/play/tv/36-9/video/sucre-et-grossesse--gros-dangers?urn=urn:rts:video:11102944"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a074",
+    "service_id": "69a9f40f98fad1fec753a06e",
+    "title": {
+      "fr": "Apprendre à mieux vivre avec le diabète de type 2",
+      "en": "Learn to live better with type 2 diabetes",
+      "de": "Lernen Sie, mit Typ-2-Diabetes besser zu leben",
+      "it": "Impara a vivere meglio con il diabete di tipo 2"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/page-sante_diabete-type-2-pdf"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a075",
+    "service_id": "69a9f40f98fad1fec753a06e",
+    "title": {
+      "fr": "Association Suisse du diabète",
+      "en": "Swiss Diabetes Association",
+      "de": "Schweizer Diabetes-Gesellschaft",
+      "it": "Associazione svizzera per il diabete"
+    },
+    "url": "https://www.diabetesuisse.ch/page-daccueil"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a076",
+    "service_id": "69a9f40f98fad1fec753a06e",
+    "title": {
+      "fr": "Diabète",
+      "en": "Diabetes",
+      "de": "Diabetes",
+      "it": "Diabete"
+    },
+    "url": "https://www.migesplus.ch/fr/sujets/maladies#diabete"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a07d",
+    "service_id": "69a9f40f98fad1fec753a07b",
+    "title": {
+      "fr": "Epilepsie",
+      "en": "Epilepsy",
+      "de": "Epilepsie",
+      "it": "Epilessia"
+    },
+    "url": "https://www.migesplus.ch/fr/sujets/maladies#epilepsie"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a083",
+    "service_id": "69a9f40f98fad1fec753a07f",
+    "title": {
+      "fr": "Association neuchâteloise des ergothérapeutes",
+      "en": "Neuchâtel Association of Occupational Therapists",
+      "de": "Neuenburger Verband der Ergotherapeuten",
+      "it": "Associazione dei terapisti occupazionali di Neuchâtel"
+    },
+    "url": "https://snase.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a084",
+    "service_id": "69a9f40f98fad1fec753a07f",
+    "title": {
+      "fr": "Association suisse des ergothérapeutes",
+      "en": "Swiss Association of Occupational Therapists",
+      "de": "Schweizerischer Verband der Ergotherapeuten",
+      "it": "Associazione Svizzera dei Terapisti Occupazionali"
+    },
+    "url": "https://ergotherapie.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a085",
+    "service_id": "69a9f40f98fad1fec753a07f",
+    "title": {
+      "fr": "HES SO ergothérapie",
+      "en": "HES SO occupational therapy",
+      "de": "Ergotherapie",
+      "it": "È così terapia occupazionale"
+    },
+    "url": "https://www.hes-so.ch/bachelor/ergotherapie"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a08d",
+    "service_id": "69a9f40f98fad1fec753a08b",
+    "title": {
+      "fr": "Institut Suisse de Médecine Génomique",
+      "en": "Swiss Institute of Genomic Medicine",
+      "de": "Schweizerisches Institut für Genommedizin",
+      "it": "Istituto Svizzero di Medicina Genomica"
+    },
+    "url": "https://www.medigenome.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a094",
+    "service_id": "69a9f40f98fad1fec753a092",
+    "title": {
+      "fr": "La médication chez la personne âgée",
+      "en": "Medication in the elderly",
+      "de": "Medikamente im Alter",
+      "it": "Farmaci negli anziani"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/982/la-medication-chez-la-personne-agee"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a095",
+    "service_id": "69a9f40f98fad1fec753a092",
+    "title": {
+      "fr": "Avoir 80 ans et rentrer chez soi après un séjour à l’hôpital ?",
+      "en": "Being 80 years old and returning home after a hospital stay?",
+      "de": "Mit 80 Jahren nach einem Krankenhausaufenthalt nach Hause zurückkehren?",
+      "it": "Avere 80 anni e tornare a casa dopo un ricovero ospedaliero?"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/1867/avoir-80-ans-et-rentrer-chez-soi-apres-un-sejour-a-lhopital"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a096",
+    "service_id": "69a9f40f98fad1fec753a092",
+    "title": {
+      "fr": "Les clés pour bien vieillir",
+      "en": "The keys to aging well",
+      "de": "Der Schlüssel zum guten Altern",
+      "it": "Le chiavi per invecchiare bene"
+    },
+    "url": "https://www.youtube.com/watch?v=qXANiRUY3eU&list=PLhlQnRZTixg3oI4xcCPBtJUtQ1bePJddQ"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a09b",
+    "service_id": "69a9f40f98fad1fec753a099",
+    "title": {
+      "fr": "La médication chez la personne âgée",
+      "en": "Medication in the elderly",
+      "de": "Medikamente im Alter",
+      "it": "Farmaci negli anziani"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/982/la-medication-chez-la-personne-agee"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a09c",
+    "service_id": "69a9f40f98fad1fec753a099",
+    "title": {
+      "fr": "Avoir 80 ans et rentrer chez soi après un séjour à l’hôpital ?",
+      "en": "Being 80 years old and returning home after a hospital stay?",
+      "de": "Mit 80 Jahren nach einem Krankenhausaufenthalt nach Hause zurückkehren?",
+      "it": "Avere 80 anni e tornare a casa dopo un ricovero ospedaliero?"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/1867/avoir-80-ans-et-rentrer-chez-soi-apres-un-sejour-a-lhopital"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a09d",
+    "service_id": "69a9f40f98fad1fec753a099",
+    "title": {
+      "fr": "L’Association Réseau Santé Social (AROSS)",
+      "en": "The Social Health Network Association (AROSS)",
+      "de": "Die Social Health Network Association (AROSS)",
+      "it": "Associazione Rete Socio Sanitaria (AROSS)"
+    },
+    "url": "https://www.aross.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0a1",
+    "service_id": "69a9f40f98fad1fec753a09f",
+    "title": {
+      "fr": "La médication chez la personne âgée",
+      "en": "Medication in the elderly",
+      "de": "Medikamente im Alter",
+      "it": "Farmaci negli anziani"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/982/la-medication-chez-la-personne-agee"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0a2",
+    "service_id": "69a9f40f98fad1fec753a09f",
+    "title": {
+      "fr": "Avoir 80 ans et rentrer chez soi après un séjour à l’hôpital ?",
+      "en": "Being 80 years old and returning home after a hospital stay?",
+      "de": "Mit 80 Jahren nach einem Krankenhausaufenthalt nach Hause zurückkehren?",
+      "it": "Avere 80 anni e tornare a casa dopo un ricovero ospedaliero?"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/1867/avoir-80-ans-et-rentrer-chez-soi-apres-un-sejour-a-lhopital"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0a3",
+    "service_id": "69a9f40f98fad1fec753a09f",
+    "title": {
+      "fr": "L’Association Réseau Santé Social (AROSS)",
+      "en": "The Social Health Network Association (AROSS)",
+      "de": "Die Social Health Network Association (AROSS)",
+      "it": "Associazione Rete Socio Sanitaria (AROSS)"
+    },
+    "url": "https://www.aross.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0a7",
+    "service_id": "69a9f40f98fad1fec753a0a5",
+    "title": {
+      "fr": "Équipe mobile mixte gériatrie et soins palliatifs intrahospitalière",
+      "en": "Mixed intrahospital geriatrics and palliative care mobile team",
+      "de": "Gemischtes mobiles Team für intrahospitale Geriatrie und Palliativpflege",
+      "it": "Team mobile misto di geriatria intraospedaliera e cure palliative"
+    },
+    "url": "https://www.revmed.ch/revue-medicale-suisse/2021/revue-medicale-suisse-757/equipe-mobile-mixte-geriatrie-et-soins-palliatifs-intrahospitaliere.-l-experience-neuchateloise"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0a8",
+    "service_id": "69a9f40f98fad1fec753a0a5",
+    "title": {
+      "fr": "L’Association Réseau Santé Social (AROSS)",
+      "en": "The Social Health Network Association (AROSS)",
+      "de": "Die Social Health Network Association (AROSS)",
+      "it": "Associazione Rete Socio Sanitaria (AROSS)"
+    },
+    "url": "https://www.aross.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0b4",
+    "service_id": "69a9f40f98fad1fec753a0b2",
+    "title": {
+      "fr": "Mutilations sexuelles féminines (MGF)",
+      "en": "Female genital mutilation (FGM)",
+      "de": "Weibliche Genitalverstümmelung (FGM)",
+      "it": "Mutilazioni genitali femminili (MGF)"
+    },
+    "url": "https://www.migesplus.ch/fr/sujets/sante-sexuelle#excision-mgf"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0bf",
+    "service_id": "69a9f40f98fad1fec753a0bd",
+    "title": {
+      "fr": "Groupe d'entraide alcoolisme",
+      "en": "Alcoholism support group",
+      "de": "Selbsthilfegruppe für Alkoholismus",
+      "it": "Gruppo di sostegno per l'alcolismo"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Alkoholismus~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0c4",
+    "service_id": "69a9f40f98fad1fec753a0c2",
+    "title": {
+      "fr": "L’hypnose m’a offert une renaissance",
+      "en": "Hypnosis gave me a rebirth",
+      "de": "Hypnose gab mir eine Wiedergeburt",
+      "it": "L'ipnosi mi ha dato una rinascita"
+    },
+    "url": "https://rhneinfo.ch/lhypnose-ma-offert-une-renaissance/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0c5",
+    "service_id": "69a9f40f98fad1fec753a0c2",
+    "title": {
+      "fr": "Hypnose, rêve ou réalité ?",
+      "en": "Hypnosis, dream or reality?",
+      "de": "Hypnose, Traum oder Realität?",
+      "it": "Ipnosi, sogno o realtà?"
+    },
+    "url": "https://www.youtube.com/watch?v=zpp0Om_Y3yU&list=PLhlQnRZTixg3oI4xcCPBtJUtQ1bePJddQ&index=48"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0cb",
+    "service_id": "69a9f40f98fad1fec753a0c7",
+    "title": {
+      "fr": "Demande d’examen d’imagerie",
+      "en": "Request for imaging test",
+      "de": "Anfrage für Bildgebungstest",
+      "it": "Richiesta di test di imaging"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/demande-examen-imagerie-medicale"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0cc",
+    "service_id": "69a9f40f98fad1fec753a0c7",
+    "title": {
+      "fr": "Demande d’examen PET-CT",
+      "en": "PET-CT exam request",
+      "de": "Anfrage für eine PET-CT-Untersuchung",
+      "it": "Richiesta esame PET-CT"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/demande-examen-pet-ct"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0cd",
+    "service_id": "69a9f40f98fad1fec753a0c7",
+    "title": {
+      "fr": "Demande d’examen Médecine nucléaire",
+      "en": "Request for Nuclear Medicine exam",
+      "de": "Antrag auf nuklearmedizinische Untersuchung",
+      "it": "Richiesta esame di Medicina Nucleare"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/demande-examen-medecine-nucleaire-hormis-pet-ct"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0ce",
+    "service_id": "69a9f40f98fad1fec753a0c7",
+    "title": {
+      "fr": "Coloscopie virtuelle régime sans résidus",
+      "en": "Virtual colonoscopy residue-free diet",
+      "de": "Rückstandsfreie Diät bei virtueller Koloskopie",
+      "it": "Dieta senza residui per la colonscopia virtuale"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/regime-sans-residu"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0d6",
+    "service_id": "69a9f40f98fad1fec753a0d4",
+    "title": {
+      "fr": "CHUV",
+      "en": "CHUV",
+      "de": "CHUV",
+      "it": "CHUV"
+    },
+    "url": "https://www.chuv.ch/fr/dfme/dfme-home/enfants-famille/specialites-medicales/immuno-rhumatologie-pediatrique"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0d9",
+    "service_id": "69a9f40f98fad1fec753a0d7",
+    "title": {
+      "fr": "Société suisse d’infectiologie",
+      "en": "Swiss Society of Infectious Diseases",
+      "de": "Schweizerische Gesellschaft für Infektionskrankheiten",
+      "it": "Società Svizzera di Malattie Infettive"
+    },
+    "url": "http://www.sginf.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0da",
+    "service_id": "69a9f40f98fad1fec753a0d7",
+    "title": {
+      "fr": "Société américaine de maladies infectieuses",
+      "en": "American Society of Infectious Diseases",
+      "de": "Amerikanische Gesellschaft für Infektionskrankheiten",
+      "it": "Società americana delle malattie infettive"
+    },
+    "url": "http://www.idsociety.org/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0db",
+    "service_id": "69a9f40f98fad1fec753a0d7",
+    "title": {
+      "fr": "Maladies sexuellement transmissibles",
+      "en": "Sexually transmitted diseases",
+      "de": "Sexuell übertragbare Krankheiten",
+      "it": "Malattie sessualmente trasmissibili"
+    },
+    "url": "https://www.migesplus.ch/fr/sujets/sante-sexuelle#maladies-sexuellement-transmissibles"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0de",
+    "service_id": "69a9f40f98fad1fec753a0dd",
+    "title": {
+      "fr": "Admed",
+      "en": "Admed",
+      "de": "Hinzugefügt",
+      "it": "Ammesso"
+    },
+    "url": "https://admed.ch/contact/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0e5",
+    "service_id": "69a9f40f98fad1fec753a0e3",
+    "title": {
+      "fr": "Un marathon pour un label olympique",
+      "en": "A marathon for an Olympic label",
+      "de": "Ein Marathon für ein olympisches Label",
+      "it": "Una maratona per un marchio olimpico"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/29249/un-marathon-pour-un-label-olympique"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0e6",
+    "service_id": "69a9f40f98fad1fec753a0e3",
+    "title": {
+      "fr": "La médecine du sport décryptée dans La Boucle",
+      "en": "Sports medicine deciphered in La Boucle",
+      "de": "Sportmedizin entschlüsselt in La Boucle",
+      "it": "La medicina dello sport decifrata a La Boucle"
+    },
+    "url": "https://www.canalalpha.ch/play/la-boucle/episode/29258/la-medecine-du-sport-decryptee-dans-la-boucle"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0e7",
+    "service_id": "69a9f40f98fad1fec753a0e3",
+    "title": {
+      "fr": "Nuc Volleyball",
+      "en": "Nuc Volleyball",
+      "de": "Nuc-Volleyball",
+      "it": "Pallavolo Nuc"
+    },
+    "url": "https://www.nucvolleyball.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0e8",
+    "service_id": "69a9f40f98fad1fec753a0e3",
+    "title": {
+      "fr": "Giron Jurassien des clubs de sports de neige",
+      "en": "Giron Jura snow sports clubs",
+      "de": "Schneesportvereine im Giron-Jura",
+      "it": "Club di sport sulla neve Giron Jura"
+    },
+    "url": "https://www.giron-jurassien.ch/mobile/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0e9",
+    "service_id": "69a9f40f98fad1fec753a0e3",
+    "title": {
+      "fr": "Sport fisio",
+      "en": "Fisio sport",
+      "de": "Fisio-Sport",
+      "it": "Fisiosport"
+    },
+    "url": "https://sportfisio.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0f1",
+    "service_id": "69a9f40f98fad1fec753a0ef",
+    "title": {
+      "fr": "Liste des prestations du département de médecine",
+      "en": "List of services of the department of medicine",
+      "de": "Leistungsverzeichnis der Medizinischen Fakultät",
+      "it": "Elenco dei servizi del dipartimento di medicina"
+    },
+    "url": "https://www.rhne.ch/documents/20121/562607/Liste+des+prestations+du+d%C3%A9partement+de+m%C3%A9decine.pdf/dc1c27dc-fda2-c2a9-7f38-16809cad0552?version=2.0&t=1728375227540&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0f2",
+    "service_id": "69a9f40f98fad1fec753a0ef",
+    "title": {
+      "fr": "Groupe d'entraide douleurs chroniques",
+      "en": "Chronic pain support group",
+      "de": "Selbsthilfegruppe für chronische Schmerzen",
+      "it": "Gruppo di sostegno al dolore cronico"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Chronische-Schmerzen~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0fa",
+    "service_id": "69a9f40f98fad1fec753a0f8",
+    "title": {
+      "fr": "Réso-NE",
+      "en": "Réso-NE",
+      "de": "Réso-NE",
+      "it": "Réso-NE"
+    },
+    "url": "https://reso-ne.ch/etablissements/centre-medical-volta-val-de-ruz/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0fe",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie cardiaque",
+      "en": "Cardiac scintigraphy",
+      "de": "Herzszintigraphie",
+      "it": "Scintigrafia cardiaca"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/La+scintigraphie+cardiaque.pdf/9b99e787-a49c-3c81-32e4-bf8da5cd550b?version=3.0&t=1765807522265&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a0ff",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie DaT-SCAN",
+      "en": "DaT-SCAN scintigraphy",
+      "de": "DaT-SCAN-Szintigraphie",
+      "it": "Scintigrafia DaT-SCAN"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/Information+patient+La+scintigraphie+DaT-SCAN.pdf/7fe6bbbd-2978-b29d-c9a4-145ab2b9754d?version=3.0&t=1765806672354&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a100",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie pour recherche de diverticule Merckel",
+      "en": "Scintigraphy to search for Merckel diverticulum",
+      "de": "Szintigraphie zur Suche nach Merckel-Divertikeln",
+      "it": "Scintigrafia per la ricerca del diverticolo di Merckel"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/La+scintigraphie+pour+recherche+de+diverticule+Merckel.pdf/1c99f75d-6f03-ae96-0385-0243a41cb8c7?version=2.0&t=1758635236849&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a101",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie thyroïdienne au Tc-99m",
+      "en": "Thyroid scintigraphy with Tc-99m",
+      "de": "Schilddrüsenszintigraphie mit Tc-99m",
+      "it": "Scintigrafia tiroidea con Tc-99m"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/La+scintigraphie+thyro%C3%AFdienne+au+Tc-99m.pdf/96913ec8-01ba-55cb-1a5a-0b4ef7496b41?version=2.0&t=1758635215920&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a102",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie rénale au MAG3 (Néphrogramme isotopique)",
+      "en": "Renal scintigraphy with MAG3 (Isotopic Nephrogram)",
+      "de": "Nierenszintigraphie mit MAG3 (Isotopisches Nephrogramm)",
+      "it": "Scintigrafia renale con MAG3 (Nefrogramma Isotopico)"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/La+scintigraphie+r%C3%A9nale+au+MAG3.pdf/a4e366ff-1971-750c-254c-073388fcdc5a?version=2.0&t=1758635113039&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a103",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie parathyroïdienne",
+      "en": "Parathyroid scintigraphy",
+      "de": "Nebenschilddrüsenszintigraphie",
+      "it": "Scintigrafia delle paratiroidi"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/Information_patient-La_scintigraphie_parathyroidienne.pdf/03c0303e-a5c3-5dd9-aaf7-6e0e83965fe8?version=2.0&t=1758635094750&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a104",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie pulmonaire",
+      "en": "Lung scintigraphy",
+      "de": "Lungenszintigraphie",
+      "it": "Scintigrafia polmonare"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/La+scintigraphie+pulmonaire.pdf/c75b8ad6-61fb-a35e-0f53-112af170e32f?version=2.0&t=1758634691969&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a105",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie osseuse",
+      "en": "Bone scintigraphy",
+      "de": "Knochenszintigraphie",
+      "it": "Scintigrafia ossea"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/Information-patient_La-scintigraphie-osseuse.pdf/0f187cfc-9a7e-66ac-f7bf-4e3b61d6d048?version=2.0&t=1758634677749&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a106",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie pour recherche d'hémorragie digestive",
+      "en": "Scintigraphy to detect digestive bleeding",
+      "de": "Szintigraphie zur Erkennung von Verdauungsblutungen",
+      "it": "Scintigrafia per rilevare sanguinamento digestivo"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/La+scintigraphie+pour+recherche+d%27h%C3%A9morragie+digestive.pdf/829e9821-6673-8600-832a-e76b512b57ec?version=2.0&t=1758634485648&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a107",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie rénale au DMSA",
+      "en": "DMSA renal scintigraphy",
+      "de": "DMSA-Nierenszintigraphie",
+      "it": "Scintigrafia renale con DMSA"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/La+scintigraphie+r%C3%A9nale+au+DMSA.pdf/1f653c54-8917-fade-4fa6-2e846f94fdbf?version=2.0&t=1758634401701&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a108",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie pour recherche foyers infectieux",
+      "en": "Scintigraphy to search for infectious foci",
+      "de": "Szintigraphie zur Suche nach Infektionsherden",
+      "it": "Scintigrafia per la ricerca di focolai infettivi"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/La+scintigraphie+pour+recherche+foyers+infectieux.pdf/0ac9b39c-a54d-c305-d8a0-a9017bc71fc7?version=2.0&t=1758634388008&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a109",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie ganglion sentinelle",
+      "en": "Sentinel lymph node scintigraphy",
+      "de": "Sentinel-Lymphknoten-Szintigraphie",
+      "it": "Scintigrafia del linfonodo sentinella"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/Information+patient+La+scintigraphie+ganglion+sentinelle.pdf/29d2246c-6e83-50e5-c64b-374ab4c190d1?version=2.0&t=1758634320648&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a10a",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "La scintigraphie thyroïdienne à l'iode-123",
+      "en": "Thyroid scintigraphy with iodine-123",
+      "de": "Schilddrüsenszintigraphie mit Jod-123",
+      "it": "Scintigrafia tiroidea con iodio-123"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429758/La+scintigraphie+thyro%C3%AFdienne+%C3%A0+iode-123.pdf/9adff5f5-4e76-e38b-30e5-e5ab07493db0?version=2.0&t=1758634294722&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a10b",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "PET-CT cérébral au FET",
+      "en": "FET brain PET-CT",
+      "de": "FET-Gehirn-PET-CT",
+      "it": "FET PET-CT cerebrale"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429778/PET-CT+c%C3%A9r%C3%A9bral+au+FET.pdf/ea6d37ce-4d76-e7ac-56f0-2dc3f1499087?version=2.0&t=1758635383559&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a10c",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "PET-CT au 18F-FDG Viabilité cardiaque",
+      "en": "18F-FDG PET-CT Cardiac viability",
+      "de": "18F-FDG PET-CT Kardiale Lebensfähigkeit",
+      "it": "18F-FDG PET-CT Vitalità cardiaca"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429778/PET-CT+au+18F-FDG+Viabilit%C3%A9+cardiaque.pdf/37069a34-b877-ad19-0cc4-98afd831d88d?version=2.0&t=1758635345701&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a10d",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "PET-CT au 18F-FDG diabétique insulino-dépendant",
+      "en": "Insulin-dependent diabetic 18F-FDG PET-CT",
+      "de": "Insulinabhängiger Diabetiker 18F-FDG PET-CT",
+      "it": "PET-CT 18F-FDG per diabetici insulino-dipendenti"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429778/PET-CT+au+18F-FDG+diab%C3%A9tique+insulino-d%C3%A9pendant.pdf/0d34380e-bf23-64cd-eeba-afb4fefe8c6d?version=2.0&t=1758635193041&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a10e",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "PET-CT au 68Ga-PSMA",
+      "en": "68Ga-PSMA PET-CT",
+      "de": "68Ga-PSMA PET-CT",
+      "it": "PET-CT con 68Ga-PSMA"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429778/PET-CT+au+68Ga-PSMA.pdf/dc137473-ac27-a545-de49-bbc5e1a9f92a?version=2.0&t=1758634958613&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a10f",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "PET-CT cardiaque au 18F-FDG",
+      "en": "Cardiac 18F-FDG PET-CT",
+      "de": "Herz 18F-FDG PET-CT",
+      "it": "PET-TC cardiaca 18F-FDG"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429778/PET-CT+cardiaque+au+18F-FDG.pdf/bb31fb63-b3b9-dff6-4390-15010ed8cbc8?version=2.0&t=1758634912299&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a110",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "PET-CT au 18F-FDG",
+      "en": "18F-FDG PET-CT",
+      "de": "18F-FDG PET-CT",
+      "it": "PET-TC 18F-FDG"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429778/PET-CT+au+18F-FDG.pdf/2a24b6da-ce98-a2fc-183d-8011cb13ed3e?version=2.0&t=1758634654943&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a111",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "PET-CT au 68Ga-DOTA-TATE",
+      "en": "68Ga-DOTA-TATE PET-CT",
+      "de": "68Ga-DOTA-TATE PET-CT",
+      "it": "68Ga-DOTA-TATE PET-CT"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429778/PET-CT+au+68Ga-DOTA-TATE.pdf/d5deb505-66d0-f85a-43f5-ed265cd33b40?version=2.0&t=1758634596361&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a112",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "PET-CT cérébral au 18F-FDG",
+      "en": "Brain PET-CT with 18F-FDG",
+      "de": "Gehirn-PET-CT mit 18F-FDG",
+      "it": "PET-CT cerebrale con 18F-FDG"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429778/PET-CT+c%C3%A9r%C3%A9bral+au+18F-FDG.pdf/cffc7a67-074c-f4ce-c9a3-f630e0a53db9?version=2.0&t=1758634513101&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a113",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "PET-CT cérébral Vizamyl",
+      "en": "Vizamyl brain PET-CT",
+      "de": "Vizamyl-Gehirn-PET-CT",
+      "it": "PET-CT cerebrale con Vizamyl"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429778/PET-CT+c%C3%A9r%C3%A9bral+Vizamyl.pdf/179e2fef-0fba-2f19-8dfe-ad2ac29557e5?version=2.0&t=1758634420271&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a114",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "PET-CT au 18F-PSMA",
+      "en": "18F-PSMA PET-CT",
+      "de": "18F-PSMA PET-CT",
+      "it": "18F-PSMA PET-CT"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429778/PET-CT+au+18F-PSMA.pdf/f8df3206-af98-b453-c1af-42c3d297857c?version=1.0&t=1758634267996&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a115",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "Régime pour PET-CT inflammation-infection cardiaque",
+      "en": "Diet for PET-CT cardiac inflammation-infection",
+      "de": "Diät für PET-CT-Herzentzündungsinfektionen",
+      "it": "Dieta per infiammazione-infezione cardiaca PET-CT"
+    },
+    "url": "https://www.rhne.ch/documents/20121/429778/R%C3%A9gime+pour+PET-CT+inflammation-infection+cardiaque.pdf/755d4c54-438f-bfed-d805-c5b7b11a0290?version=1.0&t=1716905195750&download=true"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a116",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "Société suisse de médecine nucléaire",
+      "en": "Swiss Society of Nuclear Medicine",
+      "de": "Schweizerische Gesellschaft für Nuklearmedizin",
+      "it": "Società Svizzera di Medicina Nucleare"
+    },
+    "url": "https://nuklearmedizin.ch/fr/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a117",
+    "service_id": "69a9f40f98fad1fec753a0fc",
+    "title": {
+      "fr": "ISFM formation post-graduée",
+      "en": "ISFM post-graduate training",
+      "de": "ISFM-Postgraduiertenausbildung",
+      "it": "Formazione post-laurea ISFM"
+    },
+    "url": "https://www.siwf.ch/fr/formation-postgraduee/titres-specialiste-formations/medecine-nucleaire.cfm"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a11b",
+    "service_id": "69a9f40f98fad1fec753a119",
+    "title": {
+      "fr": "Ménopause, levons le tabou !",
+      "en": "Menopause, let’s lift the taboo!",
+      "de": "Wechseljahre, lasst uns das Tabu aufheben!",
+      "it": "Menopausa, solleviamo il tabù!"
+    },
+    "url": "https://www.youtube.com/watch?v=2mwuAGRwfV0&list=PLhlQnRZTixg3oI4xcCPBtJUtQ1bePJddQ"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a11e",
+    "service_id": "69a9f40f98fad1fec753a11d",
+    "title": {
+      "fr": "Groupe d'entraide naissance prématurée",
+      "en": "Premature birth support group",
+      "de": "Selbsthilfegruppe für Frühgeburten",
+      "it": "Gruppo di sostegno alla nascita prematura"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Fr-hgeburt~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a126",
+    "service_id": "69a9f40f98fad1fec753a124",
+    "title": {
+      "fr": "Contrôle de l’ insuffisance cardiaque",
+      "en": "Control of heart failure",
+      "de": "Kontrolle der Herzinsuffizienz",
+      "it": "Controllo dell'insufficienza cardiaca"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/insuffisancecardique_rhne"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a127",
+    "service_id": "69a9f40f98fad1fec753a124",
+    "title": {
+      "fr": "Société Suisse de cardiologie",
+      "en": "Swiss Society of Cardiology",
+      "de": "Schweizerische Gesellschaft für Kardiologie",
+      "it": "Società Svizzera di Cardiologia"
+    },
+    "url": "https://fr.swisscardio.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a130",
+    "service_id": "69a9f40f98fad1fec753a12e",
+    "title": {
+      "fr": "Association suisse des neuropsychologues",
+      "en": "Swiss Association of Neuropsychologists",
+      "de": "Schweizerischer Verband der Neuropsychologen",
+      "it": "Associazione Svizzera dei Neuropsicologi"
+    },
+    "url": "https://www.neuropsy.ch/fr"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a131",
+    "service_id": "69a9f40f98fad1fec753a12e",
+    "title": {
+      "fr": "Fragile suisse - pour une personne avec des lésions cérébrales et leurs proches",
+      "en": "Swiss Fragile - for a person with brain damage and their loved ones",
+      "de": "Swiss Fragile – für eine Person mit Hirnschaden und ihre Angehörigen",
+      "it": "Swiss Fragile - per una persona con danni cerebrali e i suoi cari"
+    },
+    "url": "https://www.fragile.ch/fr/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a13a",
+    "service_id": "69a9f40f98fad1fec753a138",
+    "title": {
+      "fr": "Dépister et sauver des vies",
+      "en": "Screen and save lives",
+      "de": "Durchsuchen und Leben retten",
+      "it": "Effettua lo screening e salva vite umane"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/27638/depister-et-sauver-des-vies"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a13b",
+    "service_id": "69a9f40f98fad1fec753a138",
+    "title": {
+      "fr": "Se reconstruire après un cancer",
+      "en": "Rebuilding yourself after cancer",
+      "de": "Sich nach einer Krebserkrankung wieder aufbauen",
+      "it": "Ricostruirsi dopo il cancro"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/27839/se-reconstruire-apres-un-cancer"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a13c",
+    "service_id": "69a9f40f98fad1fec753a138",
+    "title": {
+      "fr": "Vivre avec le cancer au temps du coronavirus",
+      "en": "Living with cancer in the time of coronavirus",
+      "de": "Leben mit Krebs in Zeiten des Coronavirus",
+      "it": "Convivere con il cancro ai tempi del coronavirus"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/21945/vivre-avec-le-cancer-au-temps-du-coronavirus"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a13d",
+    "service_id": "69a9f40f98fad1fec753a138",
+    "title": {
+      "fr": "Tumorboard : un colloque pour sauver des vies",
+      "en": "Tumorboard: a conference to save lives",
+      "de": "Tumorboard: eine Konferenz, um Leben zu retten",
+      "it": "Tumorboard: un convegno per salvare vite umane"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/1315/tumorboard-un-colloque-pour-sauver-des-vies"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a13e",
+    "service_id": "69a9f40f98fad1fec753a138",
+    "title": {
+      "fr": "(Ré)apprendre à vivre après un cancer",
+      "en": "(Re)learning to live after cancer",
+      "de": "(Wieder)lernen, nach einer Krebserkrankung zu leben",
+      "it": "(Ri)imparare a vivere dopo il cancro"
+    },
+    "url": "https://www.rtn.ch/rtn/Actualite/Region/20211013-Re-apprendre-a-vivre-apres-un-cancer.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a13f",
+    "service_id": "69a9f40f98fad1fec753a138",
+    "title": {
+      "fr": "\"Ramer en rose\" ou comment l'aviron peut aider les femmes à affronter un cancer du sein",
+      "en": "“Rowing in pink” or how rowing can help women face breast cancer",
+      "de": "„Rudern in Pink“ oder wie Rudern Frauen bei der Bekämpfung von Brustkrebs helfen kann",
+      "it": "“Rowing in pink” ovvero come il canottaggio può aiutare le donne ad affrontare il cancro al seno"
+    },
+    "url": "https://pages.rts.ch/la-1ere/programmes/on-en-parle/11641809-ramer-en-rose-ou-comment-laviron-peut-aider-les-femmes-a-affronter-un-cancer-du-sein-14-10-2020.html?mediaShare"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a140",
+    "service_id": "69a9f40f98fad1fec753a138",
+    "title": {
+      "fr": "Groupe d'entraide cancer",
+      "en": "Cancer support group",
+      "de": "Krebs-Selbsthilfegruppe",
+      "it": "Gruppo di sostegno al cancro"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Krebs~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a141",
+    "service_id": "69a9f40f98fad1fec753a138",
+    "title": {
+      "fr": "Groupe d'entraide stomie",
+      "en": "Ostomy support group",
+      "de": "Stoma-Selbsthilfegruppe",
+      "it": "Gruppo di supporto per stomia"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Stoma~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a147",
+    "service_id": "69a9f40f98fad1fec753a145",
+    "title": {
+      "fr": "Le cholestéatome : un trouble de l'audition méconnu",
+      "en": "Cholesteatoma: a little-known hearing disorder",
+      "de": "Cholesteatom: eine wenig bekannte Hörstörung",
+      "it": "Colesteatoma: un disturbo dell’udito poco conosciuto"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/21243/le-cholesteatome-un-trouble-de-laudition-meconnu"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a148",
+    "service_id": "69a9f40f98fad1fec753a145",
+    "title": {
+      "fr": "Vivre sans thyroïde",
+      "en": "Living without a thyroid",
+      "de": "Leben ohne Schilddrüse",
+      "it": "Vivere senza tiroide"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/28603/vivre-sans-thyroide"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a149",
+    "service_id": "69a9f40f98fad1fec753a145",
+    "title": {
+      "fr": "Une chirurgie pour mieux entendre",
+      "en": "Surgery to hear better",
+      "de": "Operation, um besser zu hören",
+      "it": "Intervento chirurgico per sentire meglio"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/20506/une-chirurgie-pour-mieux-entendre"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a14a",
+    "service_id": "69a9f40f98fad1fec753a145",
+    "title": {
+      "fr": "Quand les larmes n'arrêtent pas de couler",
+      "en": "When the tears don't stop falling",
+      "de": "Wenn die Tränen nicht aufhören zu fließen",
+      "it": "Quando le lacrime non smettono di cadere"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/3415/quand-les-larmes-narretent-pas-de-couler"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a14b",
+    "service_id": "69a9f40f98fad1fec753a145",
+    "title": {
+      "fr": "Groupe d'entraide handicap auditif",
+      "en": "Hearing disability support group",
+      "de": "Selbsthilfegruppe für Hörgeschädigte",
+      "it": "Gruppo di sostegno per disabili uditivi"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~H-rbehinderung~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a154",
+    "service_id": "69a9f40f98fad1fec753a152",
+    "title": {
+      "fr": "Contrôle de l’ insuffisance cardiaque",
+      "en": "Control of heart failure",
+      "de": "Kontrolle der Herzinsuffizienz",
+      "it": "Controllo dell'insufficienza cardiaca"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/insuffisancecardique_rhne"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a155",
+    "service_id": "69a9f40f98fad1fec753a152",
+    "title": {
+      "fr": "Société Suisse de cardiologie",
+      "en": "Swiss Society of Cardiology",
+      "de": "Schweizerische Gesellschaft für Kardiologie",
+      "it": "Società Svizzera di Cardiologia"
+    },
+    "url": "https://fr.swisscardio.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a165",
+    "service_id": "69a9f40f98fad1fec753a161",
+    "title": {
+      "fr": "Société Suisse de cardiologie",
+      "en": "Swiss Society of Cardiology",
+      "de": "Schweizerische Gesellschaft für Kardiologie",
+      "it": "Società Svizzera di Cardiologia"
+    },
+    "url": "https://fr.swisscardio.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a16a",
+    "service_id": "69a9f40f98fad1fec753a168",
+    "title": {
+      "fr": "Contrôle de l’ insuffisance cardiaque",
+      "en": "Control of heart failure",
+      "de": "Kontrolle der Herzinsuffizienz",
+      "it": "Controllo dell'insufficienza cardiaca"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/insuffisancecardique_rhne"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a16b",
+    "service_id": "69a9f40f98fad1fec753a168",
+    "title": {
+      "fr": "Société Suisse de cardiologie",
+      "en": "Swiss Society of Cardiology",
+      "de": "Schweizerische Gesellschaft für Kardiologie",
+      "it": "Società Svizzera di Cardiologia"
+    },
+    "url": "https://fr.swisscardio.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a172",
+    "service_id": "69a9f40f98fad1fec753a170",
+    "title": {
+      "fr": "Maladies pulmonaires",
+      "en": "Lung diseases",
+      "de": "Lungenerkrankungen",
+      "it": "Malattie polmonari"
+    },
+    "url": "https://www.migesplus.ch/fr/sujets/maladies#affections-pulmonaires"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a17a",
+    "service_id": "69a9f40f98fad1fec753a178",
+    "title": {
+      "fr": "Société suisse de Pneumologie pédiatrique",
+      "en": "Swiss Society of Pediatric Pneumology",
+      "de": "Schweizerische Gesellschaft für Pädiatrische Pneumologie",
+      "it": "Società Svizzera di Pneumologia Pediatrica"
+    },
+    "url": "http://www.sgpp-sspp.ch/fr/homefr.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a182",
+    "service_id": "69a9f40f98fad1fec753a17f",
+    "title": {
+      "fr": "Demande de prestation ambulatoire - gestes techniques et interventionnels",
+      "en": "Request for outpatient service - technical and interventional procedures",
+      "de": "Anfrage für ambulante Leistungen – technische und interventionelle Verfahren",
+      "it": "Richiesta di prestazione ambulatoriale – procedure tecniche ed interventistiche"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/demande-de-prestation-ambulatoire-traitement-medicamenteux"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a183",
+    "service_id": "69a9f40f98fad1fec753a17f",
+    "title": {
+      "fr": "Demande de prestation ambulatoire - traitement médicamenteux",
+      "en": "Request for outpatient service - medicinal treatment",
+      "de": "Antrag auf ambulante Leistung – medikamentöse Behandlung",
+      "it": "Richiesta di prestazione ambulatoriale - cure medicinali"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/demande-de-prestation-ambulatoire-gestes-techniques-et-interventionnels"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a18a",
+    "service_id": "69a9f40f98fad1fec753a188",
+    "title": {
+      "fr": "Société Suisse de cardiologie",
+      "en": "Swiss Society of Cardiology",
+      "de": "Schweizerische Gesellschaft für Kardiologie",
+      "it": "Società Svizzera di Cardiologia"
+    },
+    "url": "https://fr.swisscardio.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a19d",
+    "service_id": "69a9f40f98fad1fec753a19b",
+    "title": {
+      "fr": "Demande d'admission en hôpital de réadaptation",
+      "en": "Request for admission to a rehabilitation hospital",
+      "de": "Antrag auf Aufnahme in ein Rehabilitationskrankenhaus",
+      "it": "Richiesta di ricovero in un ospedale di riabilitazione"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/formulaire-de-demande-d-admission-en-readaptation-stationnaire"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a19e",
+    "service_id": "69a9f40f98fad1fec753a19b",
+    "title": {
+      "fr": "Groupe d'entraide douleurs chroniques",
+      "en": "Chronic pain support group",
+      "de": "Selbsthilfegruppe für chronische Schmerzen",
+      "it": "Gruppo di sostegno al dolore cronico"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Chronische-Schmerzen~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1a5",
+    "service_id": "69a9f40f98fad1fec753a1a3",
+    "title": {
+      "fr": "La ligue pulmonaire neuchâteloise",
+      "en": "The Neuchâtel pulmonary league",
+      "de": "Die Neuenburger Lungenliga",
+      "it": "La lega polmonare di Neuchâtel"
+    },
+    "url": "https://lpne.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1aa",
+    "service_id": "69a9f40f98fad1fec753a1a8",
+    "title": {
+      "fr": "Maux de dos / rhumatismes",
+      "en": "Back pain/rheumatism",
+      "de": "Rückenschmerzen/Rheuma",
+      "it": "Mal di schiena/reumatismi"
+    },
+    "url": "https://www.migesplus.ch/fr/sujets/maladies#maux-de-dos-rhumatismes"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1ab",
+    "service_id": "69a9f40f98fad1fec753a1a8",
+    "title": {
+      "fr": "Groupe d'entraide douleurs chroniques",
+      "en": "Chronic pain support group",
+      "de": "Selbsthilfegruppe für chronische Schmerzen",
+      "it": "Gruppo di sostegno al dolore cronico"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Chronische-Schmerzen~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1ac",
+    "service_id": "69a9f40f98fad1fec753a1a8",
+    "title": {
+      "fr": "Groupe d'entraide syndrome d'Ehlers-Danlos",
+      "en": "Ehlers-Danlos syndrome support group",
+      "de": "Selbsthilfegruppe für das Ehlers-Danlos-Syndrom",
+      "it": "Gruppo di sostegno per la sindrome di Ehlers-Danlos"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Ehlers-Danlos-Syndrom~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1ad",
+    "service_id": "69a9f40f98fad1fec753a1a8",
+    "title": {
+      "fr": "Groupe d'entraide fibromyalgie",
+      "en": "Fibromyalgia support group",
+      "de": "Selbsthilfegruppe für Fibromyalgie",
+      "it": "Gruppo di sostegno per la fibromialgia"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Fibromyalgie~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1ae",
+    "service_id": "69a9f40f98fad1fec753a1a8",
+    "title": {
+      "fr": "Groupe d'entraide sclérose en plaques",
+      "en": "Multiple sclerosis support group",
+      "de": "Selbsthilfegruppe für Multiple Sklerose",
+      "it": "Gruppo di sostegno per la sclerosi multipla"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Multiple-Sklerose~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1be",
+    "service_id": "69a9f40f98fad1fec753a1bc",
+    "title": {
+      "fr": "Certifications qualité palliative",
+      "en": "Palliative quality certifications",
+      "de": "Palliative Qualitätszertifizierungen",
+      "it": "Certificazioni di qualità palliative"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/certifications-qualite-palliative"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1bf",
+    "service_id": "69a9f40f98fad1fec753a1bc",
+    "title": {
+      "fr": "Critères d’admission à La Chrysalide",
+      "en": "Admission criteria to La Chrysalide",
+      "de": "Zulassungskriterien für La Chrysalide",
+      "it": "Criteri di ammissione a La Chrysalide"
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/criteres-admission-chrysalide"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1c0",
+    "service_id": "69a9f40f98fad1fec753a1bc",
+    "title": {
+      "fr": "Livre « repas mixés »  Laurent Gaillot, chef de cuisine à La Chrysalide, propose plus de 180 recettes démontrant que les repas mixés peuvent être adaptés de la cuisine traditionnelle et déclinés sur un mode gastronomique. L’ouvrage est disponible sur place à la réception de la Chrysalide et peut être commandé sur le site de la Fondation La Chrysalide",
+      "en": "“Mixed meals” book  Laurent Gaillot, chef at La Chrysalide, offers more than 180 recipes demonstrating that mixed meals can be adapted from traditional cuisine and presented in a gastronomic way. The book is available on site at the Chrysalide reception and can be ordered on the La Chrysalide Foundation website.",
+      "de": "Buch „Gemischte Gerichte“ Laurent Gaillot, Chefkoch im La Chrysalide, bietet mehr als 180 Rezepte, die zeigen, dass gemischte Gerichte aus der traditionellen Küche adaptiert und auf gastronomische Weise präsentiert werden können. Das Buch ist vor Ort an der Chrysalide-Rezeption erhältlich und kann auf der Website der La Chrysalide Foundation bestellt werden.",
+      "it": "Il libro \"Pasti misti\" Laurent Gaillot, chef di La Chrysalide, offre più di 180 ricette che dimostrano che i pasti misti possono essere adattati dalla cucina tradizionale e presentati in modo gastronomico. Il libro è disponibile in loco presso la reception Chrysalide e può essere ordinato sul sito della Fondazione La Chrysalide."
+    },
+    "url": "https://www.rhne.ch/documents/d/guest/repas-mixes"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1c4",
+    "service_id": "69a9f40f98fad1fec753a1c2",
+    "title": {
+      "fr": "Groupe d'entraide dépendance aux drogues",
+      "en": "Drug addiction support group",
+      "de": "Selbsthilfegruppe für Drogenabhängige",
+      "it": "Gruppo di sostegno per tossicodipendenti"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Drogenabh-ngigkeit~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1cb",
+    "service_id": "69a9f40f98fad1fec753a1c9",
+    "title": {
+      "fr": "Swiss Federation of Clinical Neuro-Societies (SFCNS)",
+      "en": "Swiss Federation of Clinical Neuro-Societies (SFCNS)",
+      "de": "Schweizerische Föderation Klinischer Neurogesellschaften (SFCNS)",
+      "it": "Federazione svizzera delle società neurologiche cliniche (SFCNS)"
+    },
+    "url": "https://sfcns.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1cc",
+    "service_id": "69a9f40f98fad1fec753a1c9",
+    "title": {
+      "fr": "Groupe d'entraide aphasie",
+      "en": "Aphasia support group",
+      "de": "Aphasie-Selbsthilfegruppe",
+      "it": "Gruppo di sostegno per l'afasia"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Aphasie~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1cd",
+    "service_id": "69a9f40f98fad1fec753a1c9",
+    "title": {
+      "fr": "Groupe d'entraide handicap mental",
+      "en": "Mental disability support group",
+      "de": "Selbsthilfegruppe für geistige Behinderung",
+      "it": "Gruppo di sostegno per disabili mentali"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Behinderung--geistig~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1d4",
+    "service_id": "69a9f40f98fad1fec753a1d3",
+    "title": {
+      "fr": "Soins intermédiaires : accompagner les enfants",
+      "en": "Intermediate care: supporting children",
+      "de": "Intermediate Care: Kinder unterstützen",
+      "it": "Assistenza intermedia: sostegno ai bambini"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/39290/soins-intermediaires-accompagner-les-enfants"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1d5",
+    "service_id": "69a9f40f98fad1fec753a1d3",
+    "title": {
+      "fr": "Commission de reconnaissance des unités de soins intermédiaires (CRUIMC)",
+      "en": "Commission for the Recognition of Intermediate Care Units (CRUIMC)",
+      "de": "Kommission für die Anerkennung von Intermediate Care Units (CRUIMC)",
+      "it": "Commissione per il Riconoscimento delle Unità di Terapia Intermedia (CRUIMC)"
+    },
+    "url": "https://www.swiss-imc.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1e1",
+    "service_id": "69a9f40f98fad1fec753a1df",
+    "title": {
+      "fr": "les Bruits du Déchoc",
+      "en": "the Sounds of Shock",
+      "de": "die Geräusche des Schocks",
+      "it": "i suoni dello shock"
+    },
+    "url": "https://www.bruits-dechoc.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1e2",
+    "service_id": "69a9f40f98fad1fec753a1df",
+    "title": {
+      "fr": "L'apprentissage de la médecine aux urgences",
+      "en": "Learning medicine in the emergency room",
+      "de": "Medizin lernen in der Notaufnahme",
+      "it": "Imparare la medicina al pronto soccorso"
+    },
+    "url": "https://www.canalalpha.ch/play/placebo/episode/30132/lapprentissage-de-la-medecine-aux-urgences"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1e3",
+    "service_id": "69a9f40f98fad1fec753a1df",
+    "title": {
+      "fr": "Société Suisse de Médecine d'Urgence et de Sauvetage",
+      "en": "Swiss Society for Emergency Medicine and Rescue",
+      "de": "Schweizerische Gesellschaft für Notfallmedizin und Rettung",
+      "it": "Società Svizzera per la Medicina d'Urgenza e il Salvataggio"
+    },
+    "url": "https://www.sgnor.ch/fr/home"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1e4",
+    "service_id": "69a9f40f98fad1fec753a1df",
+    "title": {
+      "fr": "Association latine de médecine d'urgence",
+      "en": "Latin Association of Emergency Medicine",
+      "de": "Lateinische Vereinigung für Notfallmedizin",
+      "it": "Associazione Latina di Medicina d'Urgenza"
+    },
+    "url": "https://alamu.ch/?doing_wp_cron=1721135109.1212608814239501953125"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1e5",
+    "service_id": "69a9f40f98fad1fec753a1df",
+    "title": {
+      "fr": "Groupe d'entraide troubles anxieux",
+      "en": "Anxiety disorders support group",
+      "de": "Selbsthilfegruppe für Angststörungen",
+      "it": "Gruppo di sostegno per disturbi d'ansia"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Angst~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1e6",
+    "service_id": "69a9f40f98fad1fec753a1df",
+    "title": {
+      "fr": "Groupe d'entraide troubles bipolaires",
+      "en": "Bipolar disorder support group",
+      "de": "Selbsthilfegruppe für bipolare Störungen",
+      "it": "Gruppo di sostegno per il disturbo bipolare"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Bipolare-Erkrankung~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1e7",
+    "service_id": "69a9f40f98fad1fec753a1df",
+    "title": {
+      "fr": "Groupe d'entraide dépendance aux drogues",
+      "en": "Drug addiction support group",
+      "de": "Selbsthilfegruppe für Drogenabhängige",
+      "it": "Gruppo di sostegno per tossicodipendenti"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Drogenabh-ngigkeit~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1e8",
+    "service_id": "69a9f40f98fad1fec753a1df",
+    "title": {
+      "fr": "Groupe d'entraide schizophrénie",
+      "en": "Schizophrenia support group",
+      "de": "Selbsthilfegruppe für Schizophrenie",
+      "it": "Gruppo di sostegno per la schizofrenia"
+    },
+    "url": "https://www.infoentraideneuchatel.ch/shne/fr/2-trouver-un-groupe/2-4-liste-des-themes~thema~Schizophrenie~.html"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1ed",
+    "service_id": "69a9f40f98fad1fec753a1eb",
+    "title": {
+      "fr": "Mon Enfant est Malade : conseils, mesures applicables à domicile et critères indiquant la nécessité de consulter",
+      "en": "My Child is Sick: advice, measures applicable at home and criteria indicating the need to consult",
+      "de": "Mein Kind ist krank: Ratschläge, zu Hause anwendbare Maßnahmen und Kriterien für die Notwendigkeit einer Beratung",
+      "it": "Mio figlio è malato: consigli, misure applicabili a casa e criteri che indicano la necessità di una consulenza"
+    },
+    "url": "https://www.monenfantestmalade.ch/"
+  },
+  {
+    "_id": "69a9f40f98fad1fec753a1ee",
+    "service_id": "69a9f40f98fad1fec753a1eb",
+    "title": {
+      "fr": "Ressources et informations destinées aux parents après une visite aux urgences",
+      "en": "Resources and information for parents after an emergency room visit",
+      "de": "Ressourcen und Informationen für Eltern nach einem Besuch in der Notaufnahme",
+      "it": "Risorse e informazioni per i genitori dopo una visita al pronto soccorso"
+    },
+    "url": "https://www.chusj.org/soins-services/U/Urgence"
+  }
+]

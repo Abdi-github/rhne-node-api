@@ -1,0 +1,118 @@
+[
+  {
+    "_id": "eee000000000000000000001",
+    "title": {
+      "fr": "Urgences Vitales",
+      "en": "Vital Emergencies",
+      "de": "Lebensbedrohliche Notfälle",
+      "it": "Emergenze Vitali"
+    },
+    "slug": "urgences-vitales",
+    "subtitle": {
+      "fr": "Appelez immédiatement le 144",
+      "en": "Call 144 immediately",
+      "de": "Rufen Sie sofort 144 an",
+      "it": "Chiamate immediatamente il 144"
+    },
+    "hotline_type": "vital",
+    "phone_number": "144",
+    "description": {
+      "fr": "Perte de connaissance, douleur thoracique, difficulté à respirer, hémorragie importante, accident grave, brûlure étendue, intoxication, réaction allergique sévère, AVC (paralysie, trouble de la parole, perte de vision).",
+      "en": "Loss of consciousness, chest pain, difficulty breathing, major hemorrhage, serious accident, extensive burns, poisoning, severe allergic reaction, stroke (paralysis, speech disorder, vision loss).",
+      "de": "Bewusstlosigkeit, Brustschmerzen, Atemnot, starke Blutung, schwerer Unfall, ausgedehnte Verbrennung, Vergiftung, schwere allergische Reaktion, Schlaganfall (Lähmung, Sprachstörung, Sehverlust).",
+      "it": "Perdita di coscienza, dolore toracico, difficoltà respiratorie, emorragia importante, incidente grave, ustione estesa, intossicazione, reazione allergica grave, ictus (paralisi, disturbo del linguaggio, perdita della vista)."
+    },
+    "icon": "Emergency",
+    "color": "#d32f2f",
+    "link_url": "",
+    "display_order": 1,
+    "is_active": true
+  },
+  {
+    "_id": "eee000000000000000000002",
+    "title": {
+      "fr": "Urgences Non Vitales",
+      "en": "Non-Vital Emergencies",
+      "de": "Nicht lebensbedrohliche Notfälle",
+      "it": "Emergenze Non Vitali"
+    },
+    "slug": "urgences-non-vitales",
+    "subtitle": {
+      "fr": "Hotline médicale 24h/24",
+      "en": "24/7 medical hotline",
+      "de": "Medizinische Hotline 24/7",
+      "it": "Hotline medica 24/24"
+    },
+    "hotline_type": "non_vital",
+    "phone_number": "0848 134 134",
+    "description": {
+      "fr": "Fièvre élevée persistante, douleur abdominale aiguë, vomissements ou diarrhée persistants, blessure nécessitant des points de suture, fracture suspectée, infection urinaire, douleur intense non soulagée, problème médical urgent ne mettant pas la vie en danger.",
+      "en": "Persistent high fever, acute abdominal pain, persistent vomiting or diarrhea, wound requiring stitches, suspected fracture, urinary infection, intense unrelieved pain, urgent medical problem not life-threatening.",
+      "de": "Anhaltendes hohes Fieber, akute Bauchschmerzen, anhaltendes Erbrechen oder Durchfall, Wunde, die genäht werden muss, Verdacht auf Fraktur, Harnwegsinfektion, starke ungelinderte Schmerzen, dringendes nicht lebensbedrohliches medizinisches Problem.",
+      "it": "Febbre alta persistente, dolore addominale acuto, vomito o diarrea persistenti, ferita che richiede punti di sutura, sospetta frattura, infezione urinaria, dolore intenso non alleviato, problema medico urgente non mortale."
+    },
+    "icon": "Phone",
+    "color": "#ed6c02",
+    "link_url": "",
+    "display_order": 2,
+    "is_active": true
+  },
+  {
+    "_id": "eee000000000000000000003",
+    "title": {
+      "fr": "Hotline Psychiatrique",
+      "en": "Psychiatric Hotline",
+      "de": "Psychiatrische Hotline",
+      "it": "Hotline Psichiatrica"
+    },
+    "slug": "hotline-psychiatrique",
+    "subtitle": {
+      "fr": "Soutien psychologique 24h/24",
+      "en": "24/7 psychological support",
+      "de": "Psychologische Unterstützung 24/7",
+      "it": "Supporto psicologico 24/24"
+    },
+    "hotline_type": "psychiatric",
+    "phone_number": "+41 32 755 15 15",
+    "description": {
+      "fr": "Crise d'angoisse, idées suicidaires, état de détresse psychique aiguë, trouble du comportement, épisode psychotique, situation de violence, besoin urgent de soutien psychologique.",
+      "en": "Anxiety crisis, suicidal thoughts, acute psychological distress, behavioral disorder, psychotic episode, violence situation, urgent need for psychological support.",
+      "de": "Angstkrise, Suizidgedanken, akute psychische Belastung, Verhaltensstörung, psychotische Episode, Gewaltsituation, dringender Bedarf an psychologischer Unterstützung.",
+      "it": "Crisi d'ansia, idee suicidarie, stato di disagio psichico acuto, disturbo comportamentale, episodio psicotico, situazione di violenza, bisogno urgente di supporto psicologico."
+    },
+    "icon": "Psychology",
+    "color": "#7b1fa2",
+    "link_url": "",
+    "display_order": 3,
+    "is_active": true
+  },
+  {
+    "_id": "eee000000000000000000004",
+    "title": {
+      "fr": "Prise de Rendez-vous",
+      "en": "Book an Appointment",
+      "de": "Termin buchen",
+      "it": "Prenotazione Appuntamento"
+    },
+    "slug": "prise-de-rendez-vous",
+    "subtitle": {
+      "fr": "Rendez-vous en ligne pour les urgences",
+      "en": "Online appointment for emergencies",
+      "de": "Online-Termin für Notfälle",
+      "it": "Appuntamento online per emergenze"
+    },
+    "hotline_type": "appointment",
+    "phone_number": "+41 32 713 30 00",
+    "description": {
+      "fr": "Prenez rendez-vous en ligne pour les consultations d'urgence adulte et enfant. Service disponible pour les situations non vitales nécessitant une consultation rapide.",
+      "en": "Book an online appointment for adult and child emergency consultations. Service available for non-vital situations requiring a quick consultation.",
+      "de": "Buchen Sie einen Online-Termin für Erwachsenen- und Kinder-Notfallkonsultationen. Service verfügbar für nicht lebensbedrohliche Situationen, die eine schnelle Beratung erfordern.",
+      "it": "Prenotate un appuntamento online per consultazioni d'emergenza adulti e bambini. Servizio disponibile per situazioni non vitali che richiedono una consultazione rapida."
+    },
+    "icon": "CalendarMonth",
+    "color": "#1565c0",
+    "link_url": "/appointments",
+    "display_order": 4,
+    "is_active": true
+  }
+]

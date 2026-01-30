@@ -1,0 +1,1323 @@
+{
+  "info": {
+    "name": "RHNe API — Réseau Hospitalier Neuchâtelois",
+    "description": "Complete API collection for the RHNe hospital network platform.\n\n**Base URL:** `http://localhost:5000/api/v1`\n\n**Authentication:** Login first, the collection automatically stores tokens.\n\n**Languages:** Set `Accept-Language` header to `fr`, `en`, `de`, or `it`.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:5000/api/v1" },
+    { "key": "accessToken", "value": "" },
+    { "key": "refreshToken", "value": "" },
+    { "key": "siteId", "value": "" },
+    { "key": "siteSlug", "value": "pourtales" },
+    { "key": "serviceId", "value": "" },
+    { "key": "serviceSlug", "value": "" },
+    { "key": "doctorId", "value": "" },
+    { "key": "eventId", "value": "" },
+    { "key": "eventSlug", "value": "" },
+    { "key": "jobId", "value": "" },
+    { "key": "newbornId", "value": "" },
+    { "key": "patientInfoId", "value": "" },
+    { "key": "patientInfoSlug", "value": "" },
+    { "key": "userId", "value": "" },
+    { "key": "serviceContactId", "value": "" },
+    { "key": "serviceLinkId", "value": "" },
+    { "key": "resetToken", "value": "" }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [{ "key": "token", "value": "{{accessToken}}" }]
+  },
+  "item": [
+    {
+      "name": "Health & Info",
+      "item": [
+        {
+          "name": "Health Check",
+          "request": {
+            "method": "GET",
+            "url": "http://localhost:5000/health",
+            "auth": { "type": "noauth" }
+          }
+        },
+        {
+          "name": "API Info",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}",
+            "auth": { "type": "noauth" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Login (Super Admin)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json().data;",
+                  "  pm.collectionVariables.set('accessToken', data.tokens.access_token);",
+                  "  pm.collectionVariables.set('refreshToken', data.tokens.refresh_token);",
+                  "  pm.test('Login successful', () => {",
+                  "    pm.expect(data.user.email).to.equal('superadmin@rhne-clone.ch');",
+                  "    pm.expect(data.user.roles).to.include('super_admin');",
+                  "  });",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "auth": { "type": "noauth" },
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"superadmin@rhne-clone.ch\",\n  \"password\": \"SuperAdmin123!\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Login (Admin)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json().data;",
+                  "  pm.collectionVariables.set('accessToken', data.tokens.access_token);",
+                  "  pm.collectionVariables.set('refreshToken', data.tokens.refresh_token);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "auth": { "type": "noauth" },
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"admin@rhne-clone.ch\",\n  \"password\": \"Admin123!\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Login (Editor)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json().data;",
+                  "  pm.collectionVariables.set('accessToken', data.tokens.access_token);",
+                  "  pm.collectionVariables.set('refreshToken', data.tokens.refresh_token);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "auth": { "type": "noauth" },
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"editor@rhne-clone.ch\",\n  \"password\": \"Editor123!\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Login (HR Manager)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json().data;",
+                  "  pm.collectionVariables.set('accessToken', data.tokens.access_token);",
+                  "  pm.collectionVariables.set('refreshToken', data.tokens.refresh_token);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "auth": { "type": "noauth" },
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"hr@rhne-clone.ch\",\n  \"password\": \"HrManager123!\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Login (Site Manager — Pourtalès)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json().data;",
+                  "  pm.collectionVariables.set('accessToken', data.tokens.access_token);",
+                  "  pm.collectionVariables.set('refreshToken', data.tokens.refresh_token);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "auth": { "type": "noauth" },
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"pourtales.manager@rhne-clone.ch\",\n  \"password\": \"Manager123!\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Login — Invalid Credentials",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/login",
+            "auth": { "type": "noauth" },
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"wrong@email.com\",\n  \"password\": \"wrong\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Refresh Token",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json().data;",
+                  "  pm.collectionVariables.set('accessToken', data.tokens.access_token);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/refresh",
+            "auth": { "type": "noauth" },
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"refresh_token\": \"{{refreshToken}}\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Logout",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/logout",
+            "auth": { "type": "noauth" },
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"refresh_token\": \"{{refreshToken}}\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Forgot Password",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/forgot-password",
+            "auth": { "type": "noauth" },
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"superadmin@rhne-clone.ch\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Reset Password",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/auth/reset-password",
+            "auth": { "type": "noauth" },
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"token\": \"{{resetToken}}\",\n  \"password\": \"NewPassword123!\",\n  \"confirm_password\": \"NewPassword123!\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Public — Sites",
+      "item": [
+        {
+          "name": "List Sites",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json();",
+                  "  pm.test('Returns sites array', () => {",
+                  "    pm.expect(data.success).to.be.true;",
+                  "    pm.expect(data.data).to.be.an('array');",
+                  "  });",
+                  "  if (data.data.length > 0) {",
+                  "    pm.collectionVariables.set('siteSlug', data.data[0].slug);",
+                  "    pm.collectionVariables.set('siteId', data.data[0]._id);",
+                  "  }",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/sites?page=1&limit=20",
+              "host": ["{{baseUrl}}"],
+              "path": ["sites"],
+              "query": [
+                { "key": "page", "value": "1" },
+                { "key": "limit", "value": "20" },
+                { "key": "search", "value": "", "disabled": true },
+                { "key": "lang", "value": "fr", "disabled": true }
+              ]
+            },
+            "auth": { "type": "noauth" }
+          }
+        },
+        {
+          "name": "Get Site by Slug",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/sites/{{siteSlug}}",
+            "auth": { "type": "noauth" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Public — Services",
+      "item": [
+        {
+          "name": "List Services",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json();",
+                  "  if (data.data.length > 0) {",
+                  "    pm.collectionVariables.set('serviceSlug', data.data[0].slug);",
+                  "    pm.collectionVariables.set('serviceId', data.data[0]._id);",
+                  "  }",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/services?page=1&limit=20",
+              "host": ["{{baseUrl}}"],
+              "path": ["services"],
+              "query": [
+                { "key": "page", "value": "1" },
+                { "key": "limit", "value": "20" },
+                { "key": "category", "value": "", "disabled": true },
+                { "key": "site", "value": "", "disabled": true },
+                { "key": "search", "value": "", "disabled": true }
+              ]
+            },
+            "auth": { "type": "noauth" }
+          }
+        },
+        {
+          "name": "List Services — Filter by Category",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/services?category=Médecine",
+              "host": ["{{baseUrl}}"],
+              "path": ["services"],
+              "query": [{ "key": "category", "value": "Médecine" }]
+            },
+            "auth": { "type": "noauth" }
+          }
+        },
+        {
+          "name": "Get Service by Slug (with contacts, links, doctors)",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/services/{{serviceSlug}}",
+            "auth": { "type": "noauth" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Public — Doctors",
+      "item": [
+        {
+          "name": "List Doctors",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json();",
+                  "  if (data.data.length > 0) {",
+                  "    pm.collectionVariables.set('doctorId', data.data[0]._id);",
+                  "  }",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/doctors?page=1&limit=20",
+              "host": ["{{baseUrl}}"],
+              "path": ["doctors"],
+              "query": [
+                { "key": "page", "value": "1" },
+                { "key": "limit", "value": "20" },
+                { "key": "service", "value": "", "disabled": true },
+                { "key": "search", "value": "", "disabled": true }
+              ]
+            },
+            "auth": { "type": "noauth" }
+          }
+        },
+        {
+          "name": "Get Doctor by ID",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/doctors/{{doctorId}}",
+            "auth": { "type": "noauth" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Public — Events",
+      "item": [
+        {
+          "name": "List Events",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json();",
+                  "  if (data.data.length > 0) {",
+                  "    pm.collectionVariables.set('eventSlug', data.data[0].slug);",
+                  "    pm.collectionVariables.set('eventId', data.data[0]._id);",
+                  "  }",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/events",
+            "auth": { "type": "noauth" }
+          }
+        },
+        {
+          "name": "Get Event by Slug",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/events/{{eventSlug}}",
+            "auth": { "type": "noauth" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Public — Jobs",
+      "item": [
+        {
+          "name": "List Jobs",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json();",
+                  "  if (data.data.length > 0) {",
+                  "    pm.collectionVariables.set('jobId', data.data[0]._id);",
+                  "  }",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/jobs?page=1&limit=20",
+              "host": ["{{baseUrl}}"],
+              "path": ["jobs"],
+              "query": [
+                { "key": "page", "value": "1" },
+                { "key": "limit", "value": "20" },
+                { "key": "category", "value": "", "disabled": true },
+                { "key": "site", "value": "", "disabled": true }
+              ]
+            },
+            "auth": { "type": "noauth" }
+          }
+        },
+        {
+          "name": "Get Job by ID",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/jobs/{{jobId}}",
+            "auth": { "type": "noauth" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Public — Newborns",
+      "item": [
+        {
+          "name": "List Newborns",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json();",
+                  "  if (data.data.length > 0) {",
+                  "    pm.collectionVariables.set('newbornId', data.data[0]._id);",
+                  "  }",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/newborns?page=1&limit=20",
+              "host": ["{{baseUrl}}"],
+              "path": ["newborns"],
+              "query": [
+                { "key": "page", "value": "1" },
+                { "key": "limit", "value": "20" },
+                { "key": "date", "value": "", "disabled": true },
+                { "key": "month", "value": "", "disabled": true }
+              ]
+            },
+            "auth": { "type": "noauth" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Public — Patient Info",
+      "item": [
+        {
+          "name": "List Patient Info Pages",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json();",
+                  "  if (data.data.length > 0) {",
+                  "    pm.collectionVariables.set('patientInfoSlug', data.data[0].slug);",
+                  "    pm.collectionVariables.set('patientInfoId', data.data[0]._id);",
+                  "  }",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/patient-info",
+              "host": ["{{baseUrl}}"],
+              "path": ["patient-info"],
+              "query": [
+                { "key": "section", "value": "", "disabled": true }
+              ]
+            },
+            "auth": { "type": "noauth" }
+          }
+        },
+        {
+          "name": "Get Patient Info by Slug",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/patient-info/{{patientInfoSlug}}",
+            "auth": { "type": "noauth" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Public — Search",
+      "item": [
+        {
+          "name": "Search All Resources",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/search?q=cardio&limit=10",
+              "host": ["{{baseUrl}}"],
+              "path": ["search"],
+              "query": [
+                { "key": "q", "value": "cardio" },
+                { "key": "limit", "value": "10" },
+                { "key": "resources", "value": "services,doctors", "disabled": true }
+              ]
+            },
+            "auth": { "type": "noauth" }
+          }
+        },
+        {
+          "name": "Search — Services Only",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/search?q=chirurgie&resources=services",
+              "host": ["{{baseUrl}}"],
+              "path": ["search"],
+              "query": [
+                { "key": "q", "value": "chirurgie" },
+                { "key": "resources", "value": "services" }
+              ]
+            },
+            "auth": { "type": "noauth" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin — Dashboard",
+      "item": [
+        {
+          "name": "Get Dashboard Stats",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/dashboard/stats"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin — Profile",
+      "item": [
+        {
+          "name": "Get My Profile",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/profile"
+          }
+        },
+        {
+          "name": "Update My Profile",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/profile",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"first_name\": \"Marc\",\n  \"last_name\": \"Weber\",\n  \"phone\": \"+41 32 000 00 00\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Change Password",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/profile/password",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"current_password\": \"SuperAdmin123!\",\n  \"new_password\": \"NewPassword123!\",\n  \"confirm_password\": \"NewPassword123!\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin — Sites",
+      "item": [
+        {
+          "name": "List All Sites",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/admin/sites?page=1&limit=20",
+              "host": ["{{baseUrl}}"],
+              "path": ["admin", "sites"],
+              "query": [
+                { "key": "page", "value": "1" },
+                { "key": "limit", "value": "20" },
+                { "key": "is_active", "value": "", "disabled": true }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Site by ID",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/sites/{{siteId}}"
+          }
+        },
+        {
+          "name": "Create Site",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/sites",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Nouveau Site Test\",\n  \"type\": { \"fr\": \"Test\", \"en\": \"Test\", \"de\": \"Test\", \"it\": \"Test\" },\n  \"address\": \"Rue du Test 1\",\n  \"city\": \"Neuchâtel\",\n  \"postal_code\": \"2000\",\n  \"phone\": \"+41 32 000 00 00\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Site",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/sites/{{siteId}}",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"phone\": \"+41 32 999 99 99\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Site (Soft)",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/admin/sites/{{siteId}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin — Services",
+      "item": [
+        {
+          "name": "List All Services",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/admin/services?page=1&limit=20",
+              "host": ["{{baseUrl}}"],
+              "path": ["admin", "services"],
+              "query": [
+                { "key": "page", "value": "1" },
+                { "key": "limit", "value": "20" },
+                { "key": "is_active", "value": "", "disabled": true }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Service by ID",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/services/{{serviceId}}"
+          }
+        },
+        {
+          "name": "Create Service",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/services",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": { \"fr\": \"Service Test\", \"en\": \"Test Service\", \"de\": \"Testdienst\", \"it\": \"Servizio Test\" },\n  \"category\": \"Test\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Service",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/services/{{serviceId}}",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"category\": \"Updated Category\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Service (Soft)",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/admin/services/{{serviceId}}"
+          }
+        },
+        {
+          "name": "List Service Contacts",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/services/{{serviceId}}/contacts"
+          }
+        },
+        {
+          "name": "Create Service Contact",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 201) {",
+                  "  pm.collectionVariables.set('serviceContactId', pm.response.json().data._id);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/services/{{serviceId}}/contacts",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"contact@test.ch\",\n  \"phone\": \"+41 32 000 00 00\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Service Contact",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/service-contacts/{{serviceContactId}}",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"phone\": \"+41 32 111 11 11\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Service Contact",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/admin/service-contacts/{{serviceContactId}}"
+          }
+        },
+        {
+          "name": "List Service Links",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/services/{{serviceId}}/links"
+          }
+        },
+        {
+          "name": "Create Service Link",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 201) {",
+                  "  pm.collectionVariables.set('serviceLinkId', pm.response.json().data._id);",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/services/{{serviceId}}/links",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": { \"fr\": \"Lien test\", \"en\": \"Test link\", \"de\": \"Testlink\", \"it\": \"Link test\" },\n  \"url\": \"https://example.com\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Service Link",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/service-links/{{serviceLinkId}}",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"url\": \"https://updated.example.com\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Service Link",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/admin/service-links/{{serviceLinkId}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin — Doctors",
+      "item": [
+        {
+          "name": "List All Doctors",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/admin/doctors?page=1&limit=20",
+              "host": ["{{baseUrl}}"],
+              "path": ["admin", "doctors"],
+              "query": [
+                { "key": "page", "value": "1" },
+                { "key": "limit", "value": "20" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Doctor by ID",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/doctors/{{doctorId}}"
+          }
+        },
+        {
+          "name": "Create Doctor",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/doctors",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Jean Test\",\n  \"title\": \"Dr\",\n  \"service_id\": \"{{serviceId}}\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Doctor",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/doctors/{{doctorId}}",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Prof\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Doctor (Soft)",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/admin/doctors/{{doctorId}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin — Events",
+      "item": [
+        {
+          "name": "List All Events",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/events"
+          }
+        },
+        {
+          "name": "Get Event by ID",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/events/{{eventId}}"
+          }
+        },
+        {
+          "name": "Create Event",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/events",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": { \"fr\": \"Événement test\", \"en\": \"Test event\", \"de\": \"Testveranstaltung\", \"it\": \"Evento test\" },\n  \"date\": \"2026-06-15\",\n  \"url\": \"https://example.com/event\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Event",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/events/{{eventId}}",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"date\": \"2026-07-20\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Event (Soft)",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/admin/events/{{eventId}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin — Jobs",
+      "item": [
+        {
+          "name": "List All Jobs",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/jobs"
+          }
+        },
+        {
+          "name": "Get Job by ID",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/jobs/{{jobId}}"
+          }
+        },
+        {
+          "name": "Create Job",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/jobs",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": { \"fr\": \"Poste test\", \"en\": \"Test position\", \"de\": \"Teststelle\", \"it\": \"Posizione test\" },\n  \"job_id\": \"JOB-TEST-001\",\n  \"category\": \"Soins\",\n  \"percentage\": \"80-100%\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Job",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/jobs/{{jobId}}",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"percentage\": \"60-80%\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Job (Soft)",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/admin/jobs/{{jobId}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin — Newborns",
+      "item": [
+        {
+          "name": "List All Newborns",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/admin/newborns?page=1&limit=20",
+              "host": ["{{baseUrl}}"],
+              "path": ["admin", "newborns"],
+              "query": [
+                { "key": "page", "value": "1" },
+                { "key": "limit", "value": "20" }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Newborn by ID",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/newborns/{{newbornId}}"
+          }
+        },
+        {
+          "name": "Create Newborn",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/newborns",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Bébé Test\",\n  \"date\": \"6 mars 2026\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Newborn",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/newborns/{{newbornId}}",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Bébé Modifié\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Newborn (Hard)",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/admin/newborns/{{newbornId}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin — Patient Info",
+      "item": [
+        {
+          "name": "List All Patient Info",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/patient-info"
+          }
+        },
+        {
+          "name": "Get Patient Info by ID",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/patient-info/{{patientInfoId}}"
+          }
+        },
+        {
+          "name": "Create Patient Info",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/patient-info",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": { \"fr\": \"Page test\", \"en\": \"Test page\", \"de\": \"Testseite\", \"it\": \"Pagina test\" },\n  \"section\": \"test\",\n  \"sections\": [\n    {\n      \"id\": \"s1\",\n      \"title\": { \"fr\": \"Section 1\", \"en\": \"Section 1\", \"de\": \"Abschnitt 1\", \"it\": \"Sezione 1\" },\n      \"content\": { \"fr\": \"Contenu\", \"en\": \"Content\", \"de\": \"Inhalt\", \"it\": \"Contenuto\" }\n    }\n  ]\n}"
+            }
+          }
+        },
+        {
+          "name": "Update Patient Info",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/patient-info/{{patientInfoId}}",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"section\": \"updated-section\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete Patient Info (Hard)",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/admin/patient-info/{{patientInfoId}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin — Users",
+      "item": [
+        {
+          "name": "List All Users",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "if (pm.response.code === 200) {",
+                  "  const data = pm.response.json();",
+                  "  if (data.data.length > 0) {",
+                  "    pm.collectionVariables.set('userId', data.data[0]._id);",
+                  "  }",
+                  "}"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/admin/users?page=1&limit=20",
+              "host": ["{{baseUrl}}"],
+              "path": ["admin", "users"],
+              "query": [
+                { "key": "page", "value": "1" },
+                { "key": "limit", "value": "20" },
+                { "key": "is_active", "value": "", "disabled": true }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get User by ID",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/admin/users/{{userId}}"
+          }
+        },
+        {
+          "name": "Create User",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/users",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"email\": \"newuser@rhne-clone.ch\",\n  \"password\": \"NewUser123!\",\n  \"first_name\": \"Nouveau\",\n  \"last_name\": \"Utilisateur\",\n  \"preferred_language\": \"fr\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Update User",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/users/{{userId}}",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"phone\": \"+41 32 222 22 22\"\n}"
+            }
+          }
+        },
+        {
+          "name": "Assign Roles to User",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/admin/users/{{userId}}/roles",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"role_ids\": [\"REPLACE_WITH_ROLE_ID\"]\n}"
+            }
+          }
+        },
+        {
+          "name": "Delete User (Soft)",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/admin/users/{{userId}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Admin — Uploads",
+      "item": [
+        {
+          "name": "Upload Image (General)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/uploads/images",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Upload Image (Sites)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/uploads/images/sites",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Upload Image (Doctors)",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/admin/uploads/images/doctors",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "image",
+                  "type": "file",
+                  "src": ""
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Image",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/admin/uploads/images",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"public_id\": \"rhne/general/image-name\"\n}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
