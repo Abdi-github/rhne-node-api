@@ -5,8 +5,8 @@ services:
       dockerfile: Dockerfile
     container_name: rhne_api_prod
     restart: unless-stopped
-    ports:
-      - "5000:5000"
+    expose:
+      - "5000"
     env_file:
       - .env.production
     command: node dist/server.js
