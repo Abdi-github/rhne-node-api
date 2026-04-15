@@ -1,0 +1,88 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rhne_api_prod
+    restart: always
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env.production
+    command: node dist/server.js
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - rhne-network
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.rhne-api.rule=Host(`rhne-api.swiftapp.ch`)"
+      - "traefik.http.routers.rhne-api.entrypoints=websecure"
+      - "traefik.http.routers.rhne-api.tls.certresolver=letsencrypt"
+      - "traefik.http.services.rhne-api.loadbalancer.server.port=5000"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+
+  mongodb:
+    image: mongo:7
+    container_name: rhne_mongodb_prod
+    restart: always
+    command: mongod --auth --bind_ip_all
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD:-fc1b238798bedf4ea35f400ede51a53a}
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - rhne-network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+
+  redis:
+    image: redis:7-alpine
+    container_name: rhne_redis_prod
+    restart: always
+    command: redis-server --appendonly yes --maxmemory 128mb --maxmemory-policy allkeys-lru --requirepass ${REDIS_PASSWORD:-fc1b238798bedf4ea35f400ede51a53a}
+    volumes:
+      - redis_data:/data
+    networks:
+      - rhne-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD:-fc1b238798bedf4ea35f400ede51a53a}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+
+volumes:
+  mongodb_data:
+  redis_data:
+
+networks:
+  rhne-network:
+    external: true
+  traefik:
+    external: true
