@@ -11,6 +11,8 @@ import { languageMiddleware } from "@middleware/language.middleware";
 import { rateLimiter } from "@middleware/rate-limit.middleware";
 import { notFoundHandler } from "@middleware/not-found.middleware";
 import { errorHandler } from "@middleware/error.middleware";
+import swaggerUi from "swagger-ui-express";
+import { swaggerSpec } from "@config/swagger";
 
 // ── Public routes ──
 import authRoutes from "@api/v1/public/auth/auth.routes";
@@ -93,6 +95,16 @@ app.use(`${apiBase}/search`, searchRoutes);
 
 // Admin routes (auth + RBAC required)
 app.use(`${apiBase}/admin`, adminRoutes);
+
+// ── API Documentation ──
+app.use(
+  `${apiBase}/docs`,
+  swaggerUi.serve,
+  swaggerUi.setup(swaggerSpec, {
+    customCss: ".swagger-ui .topbar { display: none }",
+    customSiteTitle: "RHNe API Documentation",
+  })
+);
 
 // ── 404 handler ──
 app.use(notFoundHandler);
