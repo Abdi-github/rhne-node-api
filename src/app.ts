@@ -60,6 +60,11 @@ app.get("/health", (_req, res) => {
   res.json({ status: "ok", timestamp: new Date().toISOString() });
 });
 
+// ── Root redirect ──
+app.get("/", (_req, res) => {
+  res.redirect(301, `/api/${env.API_VERSION}`);
+});
+
 // ── API Routes ──
 const apiBase = `/api/${env.API_VERSION}`;
 

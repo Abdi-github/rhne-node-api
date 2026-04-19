@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: rhne_api_prod
-    restart: unless-stopped
+    restart: no
     expose:
       - "5000"
     env_file:
@@ -42,7 +42,7 @@ services:
   mongodb:
     image: mongo:7
     container_name: rhne_mongodb_prod
-    restart: unless-stopped
+    restart: no
     labels:
       - "sablier.enable=true"
       - "sablier.group=rhne"
@@ -68,7 +68,7 @@ services:
   redis:
     image: redis:7-alpine
     container_name: rhne_redis_prod
-    restart: unless-stopped
+    restart: no
     labels:
       - "sablier.enable=true"
       - "sablier.group=rhne"
